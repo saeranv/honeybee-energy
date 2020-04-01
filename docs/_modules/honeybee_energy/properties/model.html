@@ -1,0 +1,1061 @@
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge" />
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>honeybee_energy.properties.model &#8212; honeybee energy  documentation</title>
+    <link rel="stylesheet" href="../../../_static/bootstrap-sphinx.css" type="text/css" />
+    <link rel="stylesheet" href="../../../_static/pygments.css" type="text/css" />
+    <link rel="stylesheet" type="text/css" href="../../../_static/custom.css" />
+    <script type="text/javascript" id="documentation_options" data-url_root="../../../" src="../../../_static/documentation_options.js"></script>
+    <script type="text/javascript" src="../../../_static/jquery.js"></script>
+    <script type="text/javascript" src="../../../_static/underscore.js"></script>
+    <script type="text/javascript" src="../../../_static/doctools.js"></script>
+    <script type="text/javascript" src="../../../_static/language_data.js"></script>
+    <link rel="index" title="Index" href="../../../genindex.html" />
+    <link rel="search" title="Search" href="../../../search.html" />
+<meta charset='utf-8'>
+<meta http-equiv='X-UA-Compatible' content='IE=edge,chrome=1'>
+<meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1'>
+<meta name="apple-mobile-web-app-capable" content="yes">
+<script type="text/javascript" src="../../../_static/js/jquery-1.11.0.min.js "></script>
+<script type="text/javascript" src="../../../_static/js/jquery-fix.js "></script>
+<script type="text/javascript" src="../../../_static/bootstrap-3.3.7/js/bootstrap.min.js "></script>
+<script type="text/javascript" src="../../../_static/bootstrap-sphinx.js "></script>
+
+  </head><body>
+
+  <div id="navbar" class="navbar navbar-inverse navbar-default navbar-fixed-top">
+    <div class="container">
+      <div class="navbar-header">
+        <!-- .btn-navbar is used as the toggle for collapsed navbar content -->
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".nav-collapse">
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="../../../index.html">
+          honeybee energy</a>
+        <span class="navbar-text navbar-version pull-left"><b></b></span>
+      </div>
+
+        <div class="collapse navbar-collapse nav-collapse">
+          <ul class="nav navbar-nav">
+            
+            
+              <li class="dropdown globaltoc-container">
+  <a role="button"
+     id="dLabelGlobalToc"
+     data-toggle="dropdown"
+     data-target="#"
+     href="../../../index.html">Site <b class="caret"></b></a>
+  <ul class="dropdown-menu globaltoc"
+      role="menu"
+      aria-labelledby="dLabelGlobalToc"><ul>
+<li class="toctree-l1"><a class="reference internal" href="../../../honeybee_energy.html">honeybee_energy package</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="../../../honeybee_energy.html#subpackages">Subpackages</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="../../../honeybee_energy.cli.html">honeybee_energy.cli package</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="../../../honeybee_energy.cli.html#submodules">Submodules</a><ul>
+<li class="toctree-l5"><a class="reference internal" href="../../../honeybee_energy.cli.simulate.html">honeybee_energy.cli.simulate module</a></li>
+<li class="toctree-l5"><a class="reference internal" href="../../../honeybee_energy.cli.translate.html">honeybee_energy.cli.translate module</a></li>
+</ul>
+</li>
+<li class="toctree-l4"><a class="reference internal" href="../../../honeybee_energy.cli.html#module-honeybee_energy.cli">Module contents</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="../../../honeybee_energy.construction.html">honeybee_energy.construction package</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="../../../honeybee_energy.construction.html#submodules">Submodules</a><ul>
+<li class="toctree-l5"><a class="reference internal" href="../../../honeybee_energy.construction.air.html">honeybee_energy.construction.air module</a></li>
+<li class="toctree-l5"><a class="reference internal" href="../../../honeybee_energy.construction.dictutil.html">honeybee_energy.construction.dictutil module</a></li>
+<li class="toctree-l5"><a class="reference internal" href="../../../honeybee_energy.construction.opaque.html">honeybee_energy.construction.opaque module</a></li>
+<li class="toctree-l5"><a class="reference internal" href="../../../honeybee_energy.construction.shade.html">honeybee_energy.construction.shade module</a></li>
+<li class="toctree-l5"><a class="reference internal" href="../../../honeybee_energy.construction.window.html">honeybee_energy.construction.window module</a></li>
+</ul>
+</li>
+<li class="toctree-l4"><a class="reference internal" href="../../../honeybee_energy.construction.html#module-honeybee_energy.construction">Module contents</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="../../../honeybee_energy.hvac.html">honeybee_energy.hvac package</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="../../../honeybee_energy.hvac.html#submodules">Submodules</a><ul>
+<li class="toctree-l5"><a class="reference internal" href="../../../honeybee_energy.hvac.idealair.html">honeybee_energy.hvac.idealair module</a></li>
+</ul>
+</li>
+<li class="toctree-l4"><a class="reference internal" href="../../../honeybee_energy.hvac.html#module-honeybee_energy.hvac">Module contents</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="../../../honeybee_energy.lib.html">honeybee_energy.lib package</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="../../../honeybee_energy.lib.html#subpackages">Subpackages</a><ul>
+<li class="toctree-l5"><a class="reference internal" href="../../../honeybee_energy.lib.data.html">honeybee_energy.lib.data package</a><ul>
+<li class="toctree-l6"><a class="reference internal" href="../../../honeybee_energy.lib.data.html#module-honeybee_energy.lib.data">Module contents</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l4"><a class="reference internal" href="../../../honeybee_energy.lib.html#submodules">Submodules</a><ul>
+<li class="toctree-l5"><a class="reference internal" href="../../../honeybee_energy.lib.constructions.html">honeybee_energy.lib.constructions module</a></li>
+<li class="toctree-l5"><a class="reference internal" href="../../../honeybee_energy.lib.constructionsets.html">honeybee_energy.lib.constructionsets module</a></li>
+<li class="toctree-l5"><a class="reference internal" href="../../../honeybee_energy.lib.materials.html">honeybee_energy.lib.materials module</a></li>
+<li class="toctree-l5"><a class="reference internal" href="../../../honeybee_energy.lib.programtypes.html">honeybee_energy.lib.programtypes module</a></li>
+<li class="toctree-l5"><a class="reference internal" href="../../../honeybee_energy.lib.schedules.html">honeybee_energy.lib.schedules module</a></li>
+<li class="toctree-l5"><a class="reference internal" href="../../../honeybee_energy.lib.scheduletypelimits.html">honeybee_energy.lib.scheduletypelimits module</a></li>
+</ul>
+</li>
+<li class="toctree-l4"><a class="reference internal" href="../../../honeybee_energy.lib.html#module-honeybee_energy.lib">Module contents</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="../../../honeybee_energy.load.html">honeybee_energy.load package</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="../../../honeybee_energy.load.html#submodules">Submodules</a><ul>
+<li class="toctree-l5"><a class="reference internal" href="../../../honeybee_energy.load.dictutil.html">honeybee_energy.load.dictutil module</a></li>
+<li class="toctree-l5"><a class="reference internal" href="../../../honeybee_energy.load.equipment.html">honeybee_energy.load.equipment module</a></li>
+<li class="toctree-l5"><a class="reference internal" href="../../../honeybee_energy.load.infiltration.html">honeybee_energy.load.infiltration module</a></li>
+<li class="toctree-l5"><a class="reference internal" href="../../../honeybee_energy.load.lighting.html">honeybee_energy.load.lighting module</a></li>
+<li class="toctree-l5"><a class="reference internal" href="../../../honeybee_energy.load.people.html">honeybee_energy.load.people module</a></li>
+<li class="toctree-l5"><a class="reference internal" href="../../../honeybee_energy.load.setpoint.html">honeybee_energy.load.setpoint module</a></li>
+<li class="toctree-l5"><a class="reference internal" href="../../../honeybee_energy.load.ventilation.html">honeybee_energy.load.ventilation module</a></li>
+</ul>
+</li>
+<li class="toctree-l4"><a class="reference internal" href="../../../honeybee_energy.load.html#module-honeybee_energy.load">Module contents</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="../../../honeybee_energy.material.html">honeybee_energy.material package</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="../../../honeybee_energy.material.html#submodules">Submodules</a><ul>
+<li class="toctree-l5"><a class="reference internal" href="../../../honeybee_energy.material.dictutil.html">honeybee_energy.material.dictutil module</a></li>
+<li class="toctree-l5"><a class="reference internal" href="../../../honeybee_energy.material.gas.html">honeybee_energy.material.gas module</a></li>
+<li class="toctree-l5"><a class="reference internal" href="../../../honeybee_energy.material.glazing.html">honeybee_energy.material.glazing module</a></li>
+<li class="toctree-l5"><a class="reference internal" href="../../../honeybee_energy.material.opaque.html">honeybee_energy.material.opaque module</a></li>
+<li class="toctree-l5"><a class="reference internal" href="../../../honeybee_energy.material.shade.html">honeybee_energy.material.shade module</a></li>
+</ul>
+</li>
+<li class="toctree-l4"><a class="reference internal" href="../../../honeybee_energy.material.html#module-honeybee_energy.material">Module contents</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="../../../honeybee_energy.properties.html">honeybee_energy.properties package</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="../../../honeybee_energy.properties.html#submodules">Submodules</a><ul>
+<li class="toctree-l5"><a class="reference internal" href="../../../honeybee_energy.properties.aperture.html">honeybee_energy.properties.aperture module</a></li>
+<li class="toctree-l5"><a class="reference internal" href="../../../honeybee_energy.properties.door.html">honeybee_energy.properties.door module</a></li>
+<li class="toctree-l5"><a class="reference internal" href="../../../honeybee_energy.properties.face.html">honeybee_energy.properties.face module</a></li>
+<li class="toctree-l5"><a class="reference internal" href="../../../honeybee_energy.properties.model.html">honeybee_energy.properties.model module</a></li>
+<li class="toctree-l5"><a class="reference internal" href="../../../honeybee_energy.properties.room.html">honeybee_energy.properties.room module</a></li>
+<li class="toctree-l5"><a class="reference internal" href="../../../honeybee_energy.properties.shade.html">honeybee_energy.properties.shade module</a></li>
+</ul>
+</li>
+<li class="toctree-l4"><a class="reference internal" href="../../../honeybee_energy.properties.html#module-honeybee_energy.properties">Module contents</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="../../../honeybee_energy.result.html">honeybee_energy.result package</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="../../../honeybee_energy.result.html#submodules">Submodules</a><ul>
+<li class="toctree-l5"><a class="reference internal" href="../../../honeybee_energy.result.colorobj.html">honeybee_energy.result.colorobj module</a></li>
+<li class="toctree-l5"><a class="reference internal" href="../../../honeybee_energy.result.err.html">honeybee_energy.result.err module</a></li>
+<li class="toctree-l5"><a class="reference internal" href="../../../honeybee_energy.result.rdd.html">honeybee_energy.result.rdd module</a></li>
+<li class="toctree-l5"><a class="reference internal" href="../../../honeybee_energy.result.sql.html">honeybee_energy.result.sql module</a></li>
+</ul>
+</li>
+<li class="toctree-l4"><a class="reference internal" href="../../../honeybee_energy.result.html#module-honeybee_energy.result">Module contents</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="../../../honeybee_energy.schedule.html">honeybee_energy.schedule package</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="../../../honeybee_energy.schedule.html#submodules">Submodules</a><ul>
+<li class="toctree-l5"><a class="reference internal" href="../../../honeybee_energy.schedule.day.html">honeybee_energy.schedule.day module</a></li>
+<li class="toctree-l5"><a class="reference internal" href="../../../honeybee_energy.schedule.dictutil.html">honeybee_energy.schedule.dictutil module</a></li>
+<li class="toctree-l5"><a class="reference internal" href="../../../honeybee_energy.schedule.fixedinterval.html">honeybee_energy.schedule.fixedinterval module</a></li>
+<li class="toctree-l5"><a class="reference internal" href="../../../honeybee_energy.schedule.rule.html">honeybee_energy.schedule.rule module</a></li>
+<li class="toctree-l5"><a class="reference internal" href="../../../honeybee_energy.schedule.ruleset.html">honeybee_energy.schedule.ruleset module</a></li>
+<li class="toctree-l5"><a class="reference internal" href="../../../honeybee_energy.schedule.typelimit.html">honeybee_energy.schedule.typelimit module</a></li>
+</ul>
+</li>
+<li class="toctree-l4"><a class="reference internal" href="../../../honeybee_energy.schedule.html#module-honeybee_energy.schedule">Module contents</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="../../../honeybee_energy.simulation.html">honeybee_energy.simulation package</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="../../../honeybee_energy.simulation.html#submodules">Submodules</a><ul>
+<li class="toctree-l5"><a class="reference internal" href="../../../honeybee_energy.simulation.control.html">honeybee_energy.simulation.control module</a></li>
+<li class="toctree-l5"><a class="reference internal" href="../../../honeybee_energy.simulation.daylightsaving.html">honeybee_energy.simulation.daylightsaving module</a></li>
+<li class="toctree-l5"><a class="reference internal" href="../../../honeybee_energy.simulation.dictutil.html">honeybee_energy.simulation.dictutil module</a></li>
+<li class="toctree-l5"><a class="reference internal" href="../../../honeybee_energy.simulation.output.html">honeybee_energy.simulation.output module</a></li>
+<li class="toctree-l5"><a class="reference internal" href="../../../honeybee_energy.simulation.parameter.html">honeybee_energy.simulation.parameter module</a></li>
+<li class="toctree-l5"><a class="reference internal" href="../../../honeybee_energy.simulation.runperiod.html">honeybee_energy.simulation.runperiod module</a></li>
+<li class="toctree-l5"><a class="reference internal" href="../../../honeybee_energy.simulation.shadowcalculation.html">honeybee_energy.simulation.shadowcalculation module</a></li>
+<li class="toctree-l5"><a class="reference internal" href="../../../honeybee_energy.simulation.sizing.html">honeybee_energy.simulation.sizing module</a></li>
+</ul>
+</li>
+<li class="toctree-l4"><a class="reference internal" href="../../../honeybee_energy.simulation.html#module-honeybee_energy.simulation">Module contents</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="../../../honeybee_energy.html#submodules">Submodules</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="../../../honeybee_energy.altnumber.html">honeybee_energy.altnumber module</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../../honeybee_energy.boundarycondition.html">honeybee_energy.boundarycondition module</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../../honeybee_energy.config.html">honeybee_energy.config module</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../../honeybee_energy.constructionset.html">honeybee_energy.constructionset module</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../../honeybee_energy.dictutil.html">honeybee_energy.dictutil module</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../../honeybee_energy.programtype.html">honeybee_energy.programtype module</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../../honeybee_energy.reader.html">honeybee_energy.reader module</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../../honeybee_energy.run.html">honeybee_energy.run module</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../../honeybee_energy.writer.html">honeybee_energy.writer module</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="../../../honeybee_energy.html#module-honeybee_energy">Module contents</a></li>
+</ul>
+</li>
+</ul>
+</ul>
+</li>
+              
+                <li class="dropdown">
+  <a role="button"
+     id="dLabelLocalToc"
+     data-toggle="dropdown"
+     data-target="#"
+     href="#">Page <b class="caret"></b></a>
+  <ul class="dropdown-menu localtoc"
+      role="menu"
+      aria-labelledby="dLabelLocalToc"><ul>
+<li class="toctree-l1"><a class="reference internal" href="../../../honeybee_energy.html">honeybee_energy package</a></li>
+</ul>
+</ul>
+</li>
+              
+            
+            
+              
+                
+              
+            
+            
+            
+            
+              <li class="hidden-sm"></li>
+            
+          </ul>
+
+          
+            
+<form class="navbar-form navbar-right" action="../../../search.html" method="get">
+ <div class="form-group">
+  <input type="text" name="q" class="form-control" placeholder="Search" />
+ </div>
+  <input type="hidden" name="check_keywords" value="yes" />
+  <input type="hidden" name="area" value="default" />
+</form>
+          
+        </div>
+    </div>
+  </div>
+
+<div class="container">
+  <div class="row">
+      <div class="col-md-4">
+        <div id="sidebar" class="bs-sidenav" role="complementary"><ul>
+<li class="toctree-l1"><a class="reference internal" href="../../../honeybee_energy.html">honeybee_energy package</a></li>
+</ul>
+
+        </div>
+      </div>
+    <div class="body col-md-8 content" role="main">
+      
+  <h1>Source code for honeybee_energy.properties.model</h1><div class="highlight"><pre>
+<span></span><span class="c1"># coding=utf-8</span>
+<span class="sd">&quot;&quot;&quot;Model Energy Properties.&quot;&quot;&quot;</span>
+<span class="kn">from</span> <span class="nn">honeybee.extensionutil</span> <span class="kn">import</span> <span class="n">model_extension_dicts</span>
+
+<span class="kn">from</span> <span class="nn">..lib.constructionsets</span> <span class="kn">import</span> <span class="n">generic_construction_set</span>
+
+<span class="kn">from</span> <span class="nn">..material.dictutil</span> <span class="kn">import</span> <span class="n">dict_to_material</span>
+<span class="kn">from</span> <span class="nn">..construction.dictutil</span> <span class="kn">import</span> <span class="n">CONSTRUCTION_TYPES</span><span class="p">,</span> <span class="n">dict_to_construction</span><span class="p">,</span> \
+    <span class="n">dict_abridged_to_construction</span>
+<span class="kn">from</span> <span class="nn">..construction.air</span> <span class="kn">import</span> <span class="n">AirBoundaryConstruction</span>
+<span class="kn">from</span> <span class="nn">..constructionset</span> <span class="kn">import</span> <span class="n">ConstructionSet</span>
+<span class="kn">from</span> <span class="nn">..schedule.typelimit</span> <span class="kn">import</span> <span class="n">ScheduleTypeLimit</span>
+<span class="kn">from</span> <span class="nn">..schedule.dictutil</span> <span class="kn">import</span> <span class="n">SCHEDULE_TYPES</span><span class="p">,</span> <span class="n">dict_to_schedule</span><span class="p">,</span> \
+    <span class="n">dict_abridged_to_schedule</span>
+<span class="kn">from</span> <span class="nn">..programtype</span> <span class="kn">import</span> <span class="n">ProgramType</span>
+<span class="kn">from</span> <span class="nn">..hvac</span> <span class="kn">import</span> <span class="n">HVAC_TYPES_DICT</span>
+<span class="kn">from</span> <span class="nn">..writer</span> <span class="kn">import</span> <span class="n">generate_idf_string</span>
+
+<span class="k">try</span><span class="p">:</span>
+    <span class="kn">from</span> <span class="nn">itertools</span> <span class="kn">import</span> <span class="n">izip</span> <span class="k">as</span> <span class="nb">zip</span>  <span class="c1"># python 2</span>
+<span class="k">except</span> <span class="ne">ImportError</span><span class="p">:</span>
+    <span class="k">pass</span>   <span class="c1"># python 3</span>
+
+
+<div class="viewcode-block" id="ModelEnergyProperties"><a class="viewcode-back" href="../../../honeybee_energy.properties.model.html#honeybee_energy.properties.model.ModelEnergyProperties">[docs]</a><span class="k">class</span> <span class="nc">ModelEnergyProperties</span><span class="p">(</span><span class="nb">object</span><span class="p">):</span>
+    <span class="sd">&quot;&quot;&quot;Energy Properties for Honeybee Model.</span>
+
+<span class="sd">    Args:</span>
+<span class="sd">        host: A honeybee_core Model object that hosts these properties.</span>
+<span class="sd">        terrain_type: Text for the terrain type in which the model sits.</span>
+<span class="sd">            Choose from: &#39;Ocean&#39;, &#39;Country&#39;, &#39;Suburbs&#39;, &#39;Urban&#39;, &#39;City&#39;.</span>
+<span class="sd">            Default: &#39;City&#39;.</span>
+
+<span class="sd">    Properties:</span>
+<span class="sd">        * host</span>
+<span class="sd">        * terrain_type</span>
+<span class="sd">        * materials</span>
+<span class="sd">        * constructions</span>
+<span class="sd">        * room_constructions</span>
+<span class="sd">        * face_constructions</span>
+<span class="sd">        * shade_constructions</span>
+<span class="sd">        * construction_sets</span>
+<span class="sd">        * global_construction_set</span>
+<span class="sd">        * schedule_type_limits</span>
+<span class="sd">        * schedules</span>
+<span class="sd">        * shade_schedules</span>
+<span class="sd">        * room_schedules</span>
+<span class="sd">        * program_type_schedules</span>
+<span class="sd">        * hvac_schedules</span>
+<span class="sd">        * program_types</span>
+<span class="sd">        * hvacs</span>
+<span class="sd">    &quot;&quot;&quot;</span>
+    <span class="n">TERRAIN_TYPES</span> <span class="o">=</span> <span class="p">(</span><span class="s1">&#39;Ocean&#39;</span><span class="p">,</span> <span class="s1">&#39;Country&#39;</span><span class="p">,</span> <span class="s1">&#39;Suburbs&#39;</span><span class="p">,</span> <span class="s1">&#39;Urban&#39;</span><span class="p">,</span> <span class="s1">&#39;City&#39;</span><span class="p">)</span>
+
+    <span class="k">def</span> <span class="fm">__init__</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">host</span><span class="p">,</span> <span class="n">terrain_type</span><span class="o">=</span><span class="s1">&#39;City&#39;</span><span class="p">):</span>
+        <span class="sd">&quot;&quot;&quot;Initialize Model energy properties.&quot;&quot;&quot;</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">_host</span> <span class="o">=</span> <span class="n">host</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">terrain_type</span> <span class="o">=</span> <span class="n">terrain_type</span>
+
+    <span class="nd">@property</span>
+    <span class="k">def</span> <span class="nf">host</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+        <span class="sd">&quot;&quot;&quot;Get the Model object hosting these properties.&quot;&quot;&quot;</span>
+        <span class="k">return</span> <span class="bp">self</span><span class="o">.</span><span class="n">_host</span>
+
+    <span class="nd">@property</span>
+    <span class="k">def</span> <span class="nf">terrain_type</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+        <span class="sd">&quot;&quot;&quot;Get or set a text string for the terrain in which the model sits.</span>
+
+<span class="sd">        This is used to determine the wind profile over the height of the</span>
+<span class="sd">        building. Default is &#39;City&#39;. Choose from the following options:</span>
+
+<span class="sd">        * Ocean</span>
+<span class="sd">        * Country</span>
+<span class="sd">        * Suburbs</span>
+<span class="sd">        * Urban</span>
+<span class="sd">        * City</span>
+<span class="sd">        &quot;&quot;&quot;</span>
+        <span class="k">return</span> <span class="bp">self</span><span class="o">.</span><span class="n">_terrain_type</span>
+
+    <span class="nd">@terrain_type</span><span class="o">.</span><span class="n">setter</span>
+    <span class="k">def</span> <span class="nf">terrain_type</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">value</span><span class="p">):</span>
+        <span class="k">if</span> <span class="n">value</span> <span class="ow">is</span> <span class="ow">not</span> <span class="kc">None</span><span class="p">:</span>
+            <span class="k">assert</span> <span class="n">value</span> <span class="ow">in</span> <span class="bp">self</span><span class="o">.</span><span class="n">TERRAIN_TYPES</span><span class="p">,</span> <span class="s1">&#39;Input terrain_type &quot;</span><span class="si">{}</span><span class="s1">&quot; is &#39;</span> \
+                <span class="s1">&#39;not valid. Choose from the following options:</span><span class="se">\n</span><span class="si">{}</span><span class="s1">&#39;</span><span class="o">.</span><span class="n">format</span><span class="p">(</span>
+                    <span class="n">value</span><span class="p">,</span> <span class="bp">self</span><span class="o">.</span><span class="n">TERRAIN_TYPES</span><span class="p">)</span>
+            <span class="bp">self</span><span class="o">.</span><span class="n">_terrain_type</span> <span class="o">=</span> <span class="n">value</span>
+        <span class="k">else</span><span class="p">:</span>
+            <span class="bp">self</span><span class="o">.</span><span class="n">_terrain_type</span> <span class="o">=</span> <span class="s1">&#39;City&#39;</span>
+
+    <span class="nd">@property</span>
+    <span class="k">def</span> <span class="nf">materials</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+        <span class="sd">&quot;&quot;&quot;List of all unique materials contained within the model.</span>
+
+<span class="sd">        This includes materials across all Faces, Apertures, Doors, Room</span>
+<span class="sd">        ConstructionSets, and the global_construction_set.</span>
+<span class="sd">        &quot;&quot;&quot;</span>
+        <span class="n">materials</span> <span class="o">=</span> <span class="p">[]</span>
+        <span class="k">for</span> <span class="n">constr</span> <span class="ow">in</span> <span class="bp">self</span><span class="o">.</span><span class="n">constructions</span><span class="p">:</span>
+            <span class="k">try</span><span class="p">:</span>
+                <span class="n">materials</span><span class="o">.</span><span class="n">extend</span><span class="p">(</span><span class="n">constr</span><span class="o">.</span><span class="n">materials</span><span class="p">)</span>
+            <span class="k">except</span> <span class="ne">AttributeError</span><span class="p">:</span>
+                <span class="k">pass</span>  <span class="c1"># ShadeConstruction</span>
+        <span class="k">return</span> <span class="nb">list</span><span class="p">(</span><span class="nb">set</span><span class="p">(</span><span class="n">materials</span><span class="p">))</span>
+
+    <span class="nd">@property</span>
+    <span class="k">def</span> <span class="nf">constructions</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+        <span class="sd">&quot;&quot;&quot;A list of all unique constructions in the model.</span>
+
+<span class="sd">        This includes constructions across all Faces, Apertures, Doors, Shades,</span>
+<span class="sd">        Room ConstructionSets, and the global_construction_set.</span>
+<span class="sd">        &quot;&quot;&quot;</span>
+        <span class="n">all_constrs</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">global_construction_set</span><span class="o">.</span><span class="n">constructions_unique</span> <span class="o">+</span> \
+            <span class="bp">self</span><span class="o">.</span><span class="n">room_constructions</span> <span class="o">+</span> <span class="bp">self</span><span class="o">.</span><span class="n">face_constructions</span> <span class="o">+</span> <span class="bp">self</span><span class="o">.</span><span class="n">shade_constructions</span>
+        <span class="k">return</span> <span class="nb">list</span><span class="p">(</span><span class="nb">set</span><span class="p">(</span><span class="n">all_constrs</span><span class="p">))</span>
+
+    <span class="nd">@property</span>
+    <span class="k">def</span> <span class="nf">room_constructions</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+        <span class="sd">&quot;&quot;&quot;A list of all unique constructions assigned to Room ConstructionSets.</span>
+
+<span class="sd">        Note that this does not include constructions in the global_construction_set.</span>
+<span class="sd">        For these, you can request global_construction_set.constructions_unique.</span>
+<span class="sd">        &quot;&quot;&quot;</span>
+        <span class="n">room_constrs</span> <span class="o">=</span> <span class="p">[]</span>
+        <span class="k">for</span> <span class="n">cnstr_set</span> <span class="ow">in</span> <span class="bp">self</span><span class="o">.</span><span class="n">construction_sets</span><span class="p">:</span>
+            <span class="n">room_constrs</span><span class="o">.</span><span class="n">extend</span><span class="p">(</span><span class="n">cnstr_set</span><span class="o">.</span><span class="n">modified_constructions_unique</span><span class="p">)</span>
+        <span class="k">return</span> <span class="nb">list</span><span class="p">(</span><span class="nb">set</span><span class="p">(</span><span class="n">room_constrs</span><span class="p">))</span>
+
+    <span class="nd">@property</span>
+    <span class="k">def</span> <span class="nf">face_constructions</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+        <span class="sd">&quot;&quot;&quot;A list of all unique constructions assigned to Faces, Apertures and Doors.&quot;&quot;&quot;</span>
+        <span class="n">constructions</span> <span class="o">=</span> <span class="p">[]</span>
+        <span class="k">for</span> <span class="n">room</span> <span class="ow">in</span> <span class="bp">self</span><span class="o">.</span><span class="n">host</span><span class="o">.</span><span class="n">rooms</span><span class="p">:</span>
+            <span class="k">for</span> <span class="n">face</span> <span class="ow">in</span> <span class="n">room</span><span class="o">.</span><span class="n">faces</span><span class="p">:</span>  <span class="c1"># check all Face constructions</span>
+                <span class="bp">self</span><span class="o">.</span><span class="n">_check_and_add_obj_construction</span><span class="p">(</span><span class="n">face</span><span class="p">,</span> <span class="n">constructions</span><span class="p">)</span>
+                <span class="k">for</span> <span class="n">ap</span> <span class="ow">in</span> <span class="n">face</span><span class="o">.</span><span class="n">apertures</span><span class="p">:</span>  <span class="c1"># check all Aperture constructions</span>
+                    <span class="bp">self</span><span class="o">.</span><span class="n">_check_and_add_obj_construction</span><span class="p">(</span><span class="n">ap</span><span class="p">,</span> <span class="n">constructions</span><span class="p">)</span>
+                <span class="k">for</span> <span class="n">dr</span> <span class="ow">in</span> <span class="n">face</span><span class="o">.</span><span class="n">doors</span><span class="p">:</span>  <span class="c1"># check all Door constructions</span>
+                    <span class="bp">self</span><span class="o">.</span><span class="n">_check_and_add_obj_construction</span><span class="p">(</span><span class="n">dr</span><span class="p">,</span> <span class="n">constructions</span><span class="p">)</span>
+        <span class="k">return</span> <span class="nb">list</span><span class="p">(</span><span class="nb">set</span><span class="p">(</span><span class="n">constructions</span><span class="p">))</span>
+
+    <span class="nd">@property</span>
+    <span class="k">def</span> <span class="nf">shade_constructions</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+        <span class="sd">&quot;&quot;&quot;A list of all unique constructions assigned to Shades in the model.&quot;&quot;&quot;</span>
+        <span class="n">constructions</span> <span class="o">=</span> <span class="p">[]</span>
+        <span class="k">for</span> <span class="n">shade</span> <span class="ow">in</span> <span class="bp">self</span><span class="o">.</span><span class="n">host</span><span class="o">.</span><span class="n">orphaned_shades</span><span class="p">:</span>
+            <span class="bp">self</span><span class="o">.</span><span class="n">_check_and_add_obj_construction</span><span class="p">(</span><span class="n">shade</span><span class="p">,</span> <span class="n">constructions</span><span class="p">)</span>
+        <span class="k">for</span> <span class="n">room</span> <span class="ow">in</span> <span class="bp">self</span><span class="o">.</span><span class="n">host</span><span class="o">.</span><span class="n">rooms</span><span class="p">:</span>  <span class="c1"># check all Room Shade constructions</span>
+            <span class="k">for</span> <span class="n">shade</span> <span class="ow">in</span> <span class="n">room</span><span class="o">.</span><span class="n">shades</span><span class="p">:</span>
+                <span class="bp">self</span><span class="o">.</span><span class="n">_check_and_add_obj_construction</span><span class="p">(</span><span class="n">shade</span><span class="p">,</span> <span class="n">constructions</span><span class="p">)</span>
+            <span class="k">for</span> <span class="n">face</span> <span class="ow">in</span> <span class="n">room</span><span class="o">.</span><span class="n">faces</span><span class="p">:</span>  <span class="c1"># check all Face Shade constructions</span>
+                <span class="k">for</span> <span class="n">shade</span> <span class="ow">in</span> <span class="n">face</span><span class="o">.</span><span class="n">shades</span><span class="p">:</span>
+                    <span class="bp">self</span><span class="o">.</span><span class="n">_check_and_add_obj_construction</span><span class="p">(</span><span class="n">shade</span><span class="p">,</span> <span class="n">constructions</span><span class="p">)</span>
+                <span class="k">for</span> <span class="n">ap</span> <span class="ow">in</span> <span class="n">face</span><span class="o">.</span><span class="n">apertures</span><span class="p">:</span>  <span class="c1"># check all Aperture Shade constructions</span>
+                    <span class="k">for</span> <span class="n">shade</span> <span class="ow">in</span> <span class="n">ap</span><span class="o">.</span><span class="n">shades</span><span class="p">:</span>
+                        <span class="bp">self</span><span class="o">.</span><span class="n">_check_and_add_obj_construction</span><span class="p">(</span><span class="n">shade</span><span class="p">,</span> <span class="n">constructions</span><span class="p">)</span>
+                <span class="k">for</span> <span class="n">dr</span> <span class="ow">in</span> <span class="n">face</span><span class="o">.</span><span class="n">doors</span><span class="p">:</span>  <span class="c1"># check all Door Shade constructions</span>
+                    <span class="k">for</span> <span class="n">shade</span> <span class="ow">in</span> <span class="n">dr</span><span class="o">.</span><span class="n">shades</span><span class="p">:</span>
+                        <span class="bp">self</span><span class="o">.</span><span class="n">_check_and_add_obj_construction</span><span class="p">(</span><span class="n">shade</span><span class="p">,</span> <span class="n">constructions</span><span class="p">)</span>
+        <span class="k">return</span> <span class="nb">list</span><span class="p">(</span><span class="nb">set</span><span class="p">(</span><span class="n">constructions</span><span class="p">))</span>
+
+    <span class="nd">@property</span>
+    <span class="k">def</span> <span class="nf">construction_sets</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+        <span class="sd">&quot;&quot;&quot;A list of all unique Room-Assigned ConstructionSets in the Model.&quot;&quot;&quot;</span>
+        <span class="n">construction_sets</span> <span class="o">=</span> <span class="p">[]</span>
+        <span class="k">for</span> <span class="n">room</span> <span class="ow">in</span> <span class="bp">self</span><span class="o">.</span><span class="n">host</span><span class="o">.</span><span class="n">rooms</span><span class="p">:</span>
+            <span class="k">if</span> <span class="n">room</span><span class="o">.</span><span class="n">properties</span><span class="o">.</span><span class="n">energy</span><span class="o">.</span><span class="n">_construction_set</span> <span class="ow">is</span> <span class="ow">not</span> <span class="kc">None</span><span class="p">:</span>
+                <span class="k">if</span> <span class="ow">not</span> <span class="bp">self</span><span class="o">.</span><span class="n">_instance_in_array</span><span class="p">(</span><span class="n">room</span><span class="o">.</span><span class="n">properties</span><span class="o">.</span><span class="n">energy</span><span class="o">.</span><span class="n">_construction_set</span><span class="p">,</span>
+                                               <span class="n">construction_sets</span><span class="p">):</span>
+                    <span class="n">construction_sets</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">room</span><span class="o">.</span><span class="n">properties</span><span class="o">.</span><span class="n">energy</span><span class="o">.</span><span class="n">_construction_set</span><span class="p">)</span>
+        <span class="k">return</span> <span class="nb">list</span><span class="p">(</span><span class="nb">set</span><span class="p">(</span><span class="n">construction_sets</span><span class="p">))</span>  <span class="c1"># catch equivalent construction sets</span>
+
+    <span class="nd">@property</span>
+    <span class="k">def</span> <span class="nf">global_construction_set</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+        <span class="sd">&quot;&quot;&quot;A default ConstructionSet object for all unassigned objects in the Model.</span>
+
+<span class="sd">        This ConstructionSet will be written in its entirety to the dictionary</span>
+<span class="sd">        representation of ModelEnergyProperties as well as the resulting OpenStudio</span>
+<span class="sd">        model.  This is to ensure that all objects lacking a construction specification</span>
+<span class="sd">        always have a default.</span>
+<span class="sd">        &quot;&quot;&quot;</span>
+        <span class="k">return</span> <span class="n">generic_construction_set</span>
+
+    <span class="nd">@property</span>
+    <span class="k">def</span> <span class="nf">schedule_type_limits</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+        <span class="sd">&quot;&quot;&quot;List of all unique schedule type limits contained within the model.</span>
+
+<span class="sd">        This includes schedules across all Shades and Rooms.</span>
+<span class="sd">        &quot;&quot;&quot;</span>
+        <span class="n">type_limits</span> <span class="o">=</span> <span class="p">[]</span>
+        <span class="k">for</span> <span class="n">sched</span> <span class="ow">in</span> <span class="bp">self</span><span class="o">.</span><span class="n">schedules</span><span class="p">:</span>
+            <span class="n">t_lim</span> <span class="o">=</span> <span class="n">sched</span><span class="o">.</span><span class="n">schedule_type_limit</span>
+            <span class="k">if</span> <span class="n">t_lim</span> <span class="ow">is</span> <span class="ow">not</span> <span class="kc">None</span> <span class="ow">and</span> <span class="ow">not</span> <span class="bp">self</span><span class="o">.</span><span class="n">_instance_in_array</span><span class="p">(</span><span class="n">t_lim</span><span class="p">,</span> <span class="n">type_limits</span><span class="p">):</span>
+                <span class="n">type_limits</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">t_lim</span><span class="p">)</span>
+        <span class="k">return</span> <span class="nb">list</span><span class="p">(</span><span class="nb">set</span><span class="p">(</span><span class="n">type_limits</span><span class="p">))</span>
+
+    <span class="nd">@property</span>
+    <span class="k">def</span> <span class="nf">schedules</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+        <span class="sd">&quot;&quot;&quot;A list of all unique schedules in the model.</span>
+
+<span class="sd">        This includes schedules across all ProgramTypes, HVACs, Rooms and Shades.</span>
+<span class="sd">        &quot;&quot;&quot;</span>
+        <span class="n">all_scheds</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">program_type_schedules</span> <span class="o">+</span> <span class="bp">self</span><span class="o">.</span><span class="n">hvac_schedules</span> <span class="o">+</span> \
+            <span class="bp">self</span><span class="o">.</span><span class="n">room_schedules</span> <span class="o">+</span> <span class="bp">self</span><span class="o">.</span><span class="n">shade_schedules</span> <span class="o">+</span> <span class="bp">self</span><span class="o">.</span><span class="n">construcion_schedules</span>
+        <span class="k">return</span> <span class="nb">list</span><span class="p">(</span><span class="nb">set</span><span class="p">(</span><span class="n">all_scheds</span><span class="p">))</span>
+
+    <span class="nd">@property</span>
+    <span class="k">def</span> <span class="nf">construcion_schedules</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+        <span class="sd">&quot;&quot;&quot;A list of all unique schedules assigned to constructions in the model.</span>
+
+<span class="sd">        This includes schedules on al AirBoundaryConstructions.</span>
+<span class="sd">        &quot;&quot;&quot;</span>
+        <span class="n">schedules</span> <span class="o">=</span> <span class="p">[]</span>
+        <span class="k">for</span> <span class="n">constr</span> <span class="ow">in</span> <span class="bp">self</span><span class="o">.</span><span class="n">constructions</span><span class="p">:</span>
+            <span class="k">if</span> <span class="nb">isinstance</span><span class="p">(</span><span class="n">constr</span><span class="p">,</span> <span class="n">AirBoundaryConstruction</span><span class="p">):</span>
+                <span class="bp">self</span><span class="o">.</span><span class="n">_check_and_add_schedule</span><span class="p">(</span><span class="n">constr</span><span class="o">.</span><span class="n">air_mixing_schedule</span><span class="p">,</span> <span class="n">schedules</span><span class="p">)</span>
+        <span class="k">return</span> <span class="nb">list</span><span class="p">(</span><span class="nb">set</span><span class="p">(</span><span class="n">schedules</span><span class="p">))</span>
+
+    <span class="nd">@property</span>
+    <span class="k">def</span> <span class="nf">shade_schedules</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+        <span class="sd">&quot;&quot;&quot;A list of all unique transmittance schedules assigned to Shades in the model.</span>
+<span class="sd">        &quot;&quot;&quot;</span>
+        <span class="n">schedules</span> <span class="o">=</span> <span class="p">[]</span>
+        <span class="k">for</span> <span class="n">shade</span> <span class="ow">in</span> <span class="bp">self</span><span class="o">.</span><span class="n">host</span><span class="o">.</span><span class="n">orphaned_shades</span><span class="p">:</span>
+            <span class="bp">self</span><span class="o">.</span><span class="n">_check_and_add_shade_schedule</span><span class="p">(</span><span class="n">shade</span><span class="p">,</span> <span class="n">schedules</span><span class="p">)</span>
+        <span class="k">for</span> <span class="n">room</span> <span class="ow">in</span> <span class="bp">self</span><span class="o">.</span><span class="n">host</span><span class="o">.</span><span class="n">rooms</span><span class="p">:</span>  <span class="c1"># check all Room Shade schedules</span>
+            <span class="k">for</span> <span class="n">shade</span> <span class="ow">in</span> <span class="n">room</span><span class="o">.</span><span class="n">shades</span><span class="p">:</span>
+                <span class="bp">self</span><span class="o">.</span><span class="n">_check_and_add_shade_schedule</span><span class="p">(</span><span class="n">shade</span><span class="p">,</span> <span class="n">schedules</span><span class="p">)</span>
+            <span class="k">for</span> <span class="n">face</span> <span class="ow">in</span> <span class="n">room</span><span class="o">.</span><span class="n">faces</span><span class="p">:</span>  <span class="c1"># check all Face Shade schedules</span>
+                <span class="k">for</span> <span class="n">shade</span> <span class="ow">in</span> <span class="n">face</span><span class="o">.</span><span class="n">shades</span><span class="p">:</span>
+                    <span class="bp">self</span><span class="o">.</span><span class="n">_check_and_add_shade_schedule</span><span class="p">(</span><span class="n">shade</span><span class="p">,</span> <span class="n">schedules</span><span class="p">)</span>
+                <span class="k">for</span> <span class="n">ap</span> <span class="ow">in</span> <span class="n">face</span><span class="o">.</span><span class="n">apertures</span><span class="p">:</span>  <span class="c1"># check all Aperture Shade schedules</span>
+                    <span class="k">for</span> <span class="n">shade</span> <span class="ow">in</span> <span class="n">ap</span><span class="o">.</span><span class="n">shades</span><span class="p">:</span>
+                        <span class="bp">self</span><span class="o">.</span><span class="n">_check_and_add_shade_schedule</span><span class="p">(</span><span class="n">shade</span><span class="p">,</span> <span class="n">schedules</span><span class="p">)</span>
+                <span class="k">for</span> <span class="n">dr</span> <span class="ow">in</span> <span class="n">face</span><span class="o">.</span><span class="n">doors</span><span class="p">:</span>  <span class="c1"># check all Door Shade schedules</span>
+                    <span class="k">for</span> <span class="n">shade</span> <span class="ow">in</span> <span class="n">dr</span><span class="o">.</span><span class="n">shades</span><span class="p">:</span>
+                        <span class="bp">self</span><span class="o">.</span><span class="n">_check_and_add_shade_schedule</span><span class="p">(</span><span class="n">shade</span><span class="p">,</span> <span class="n">schedules</span><span class="p">)</span>
+        <span class="k">return</span> <span class="nb">list</span><span class="p">(</span><span class="nb">set</span><span class="p">(</span><span class="n">schedules</span><span class="p">))</span>
+
+    <span class="nd">@property</span>
+    <span class="k">def</span> <span class="nf">room_schedules</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+        <span class="sd">&quot;&quot;&quot;A list of all unique schedules assigned directly to Rooms in the model.</span>
+
+<span class="sd">        Note that this does not include schedules from ProgramTypes assigned to the</span>
+<span class="sd">        rooms. For this, use the program_type_schedules proeprty.</span>
+<span class="sd">        &quot;&quot;&quot;</span>
+        <span class="n">scheds</span> <span class="o">=</span> <span class="p">[]</span>
+        <span class="k">for</span> <span class="n">room</span> <span class="ow">in</span> <span class="bp">self</span><span class="o">.</span><span class="n">host</span><span class="o">.</span><span class="n">rooms</span><span class="p">:</span>
+            <span class="n">people</span> <span class="o">=</span> <span class="n">room</span><span class="o">.</span><span class="n">properties</span><span class="o">.</span><span class="n">energy</span><span class="o">.</span><span class="n">_people</span>
+            <span class="n">lighting</span> <span class="o">=</span> <span class="n">room</span><span class="o">.</span><span class="n">properties</span><span class="o">.</span><span class="n">energy</span><span class="o">.</span><span class="n">_lighting</span>
+            <span class="n">electric_equipment</span> <span class="o">=</span> <span class="n">room</span><span class="o">.</span><span class="n">properties</span><span class="o">.</span><span class="n">energy</span><span class="o">.</span><span class="n">_electric_equipment</span>
+            <span class="n">gas_equipment</span> <span class="o">=</span> <span class="n">room</span><span class="o">.</span><span class="n">properties</span><span class="o">.</span><span class="n">energy</span><span class="o">.</span><span class="n">_gas_equipment</span>
+            <span class="n">infiltration</span> <span class="o">=</span> <span class="n">room</span><span class="o">.</span><span class="n">properties</span><span class="o">.</span><span class="n">energy</span><span class="o">.</span><span class="n">_infiltration</span>
+            <span class="n">ventilation</span> <span class="o">=</span> <span class="n">room</span><span class="o">.</span><span class="n">properties</span><span class="o">.</span><span class="n">energy</span><span class="o">.</span><span class="n">_ventilation</span>
+            <span class="n">setpoint</span> <span class="o">=</span> <span class="n">room</span><span class="o">.</span><span class="n">properties</span><span class="o">.</span><span class="n">energy</span><span class="o">.</span><span class="n">_setpoint</span>
+            <span class="k">if</span> <span class="n">people</span> <span class="ow">is</span> <span class="ow">not</span> <span class="kc">None</span><span class="p">:</span>
+                <span class="bp">self</span><span class="o">.</span><span class="n">_check_and_add_schedule</span><span class="p">(</span><span class="n">people</span><span class="o">.</span><span class="n">occupancy_schedule</span><span class="p">,</span> <span class="n">scheds</span><span class="p">)</span>
+                <span class="bp">self</span><span class="o">.</span><span class="n">_check_and_add_schedule</span><span class="p">(</span><span class="n">people</span><span class="o">.</span><span class="n">activity_schedule</span><span class="p">,</span> <span class="n">scheds</span><span class="p">)</span>
+            <span class="k">if</span> <span class="n">lighting</span> <span class="ow">is</span> <span class="ow">not</span> <span class="kc">None</span><span class="p">:</span>
+                <span class="bp">self</span><span class="o">.</span><span class="n">_check_and_add_schedule</span><span class="p">(</span><span class="n">lighting</span><span class="o">.</span><span class="n">schedule</span><span class="p">,</span> <span class="n">scheds</span><span class="p">)</span>
+            <span class="k">if</span> <span class="n">electric_equipment</span> <span class="ow">is</span> <span class="ow">not</span> <span class="kc">None</span><span class="p">:</span>
+                <span class="bp">self</span><span class="o">.</span><span class="n">_check_and_add_schedule</span><span class="p">(</span><span class="n">electric_equipment</span><span class="o">.</span><span class="n">schedule</span><span class="p">,</span> <span class="n">scheds</span><span class="p">)</span>
+            <span class="k">if</span> <span class="n">gas_equipment</span> <span class="ow">is</span> <span class="ow">not</span> <span class="kc">None</span><span class="p">:</span>
+                <span class="bp">self</span><span class="o">.</span><span class="n">_check_and_add_schedule</span><span class="p">(</span><span class="n">gas_equipment</span><span class="o">.</span><span class="n">schedule</span><span class="p">,</span> <span class="n">scheds</span><span class="p">)</span>
+            <span class="k">if</span> <span class="n">infiltration</span> <span class="ow">is</span> <span class="ow">not</span> <span class="kc">None</span><span class="p">:</span>
+                <span class="bp">self</span><span class="o">.</span><span class="n">_check_and_add_schedule</span><span class="p">(</span><span class="n">infiltration</span><span class="o">.</span><span class="n">schedule</span><span class="p">,</span> <span class="n">scheds</span><span class="p">)</span>
+            <span class="k">if</span> <span class="n">ventilation</span> <span class="ow">is</span> <span class="ow">not</span> <span class="kc">None</span> <span class="ow">and</span> <span class="n">ventilation</span><span class="o">.</span><span class="n">schedule</span> <span class="ow">is</span> <span class="ow">not</span> <span class="kc">None</span><span class="p">:</span>
+                <span class="bp">self</span><span class="o">.</span><span class="n">_check_and_add_schedule</span><span class="p">(</span><span class="n">ventilation</span><span class="o">.</span><span class="n">schedule</span><span class="p">,</span> <span class="n">scheds</span><span class="p">)</span>
+            <span class="k">if</span> <span class="n">setpoint</span> <span class="ow">is</span> <span class="ow">not</span> <span class="kc">None</span><span class="p">:</span>
+                <span class="bp">self</span><span class="o">.</span><span class="n">_check_and_add_schedule</span><span class="p">(</span><span class="n">setpoint</span><span class="o">.</span><span class="n">heating_schedule</span><span class="p">,</span> <span class="n">scheds</span><span class="p">)</span>
+                <span class="bp">self</span><span class="o">.</span><span class="n">_check_and_add_schedule</span><span class="p">(</span><span class="n">setpoint</span><span class="o">.</span><span class="n">cooling_schedule</span><span class="p">,</span> <span class="n">scheds</span><span class="p">)</span>
+                <span class="k">if</span> <span class="n">setpoint</span><span class="o">.</span><span class="n">humidifying_schedule</span> <span class="ow">is</span> <span class="ow">not</span> <span class="kc">None</span><span class="p">:</span>
+                    <span class="bp">self</span><span class="o">.</span><span class="n">_check_and_add_schedule</span><span class="p">(</span>
+                        <span class="n">setpoint</span><span class="o">.</span><span class="n">humidifying_schedule</span><span class="p">,</span> <span class="n">scheds</span><span class="p">)</span>
+                    <span class="bp">self</span><span class="o">.</span><span class="n">_check_and_add_schedule</span><span class="p">(</span>
+                        <span class="n">setpoint</span><span class="o">.</span><span class="n">dehumidifying_schedule</span><span class="p">,</span> <span class="n">scheds</span><span class="p">)</span>
+        <span class="k">return</span> <span class="nb">list</span><span class="p">(</span><span class="nb">set</span><span class="p">(</span><span class="n">scheds</span><span class="p">))</span>
+
+    <span class="nd">@property</span>
+    <span class="k">def</span> <span class="nf">program_type_schedules</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+        <span class="sd">&quot;&quot;&quot;A list of all unique schedules assigned to ProgramTypes in the model.&quot;&quot;&quot;</span>
+        <span class="n">schedules</span> <span class="o">=</span> <span class="p">[]</span>
+        <span class="k">for</span> <span class="n">p_type</span> <span class="ow">in</span> <span class="bp">self</span><span class="o">.</span><span class="n">program_types</span><span class="p">:</span>
+            <span class="k">for</span> <span class="n">sched</span> <span class="ow">in</span> <span class="n">p_type</span><span class="o">.</span><span class="n">schedules</span><span class="p">:</span>
+                <span class="bp">self</span><span class="o">.</span><span class="n">_check_and_add_schedule</span><span class="p">(</span><span class="n">sched</span><span class="p">,</span> <span class="n">schedules</span><span class="p">)</span>
+        <span class="k">return</span> <span class="nb">list</span><span class="p">(</span><span class="nb">set</span><span class="p">(</span><span class="n">schedules</span><span class="p">))</span>
+
+    <span class="nd">@property</span>
+    <span class="k">def</span> <span class="nf">hvac_schedules</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+        <span class="sd">&quot;&quot;&quot;A list of all unique HVAC-assigned schedules in the model.&quot;&quot;&quot;</span>
+        <span class="n">schedules</span> <span class="o">=</span> <span class="p">[]</span>
+        <span class="k">for</span> <span class="n">hvac</span> <span class="ow">in</span> <span class="bp">self</span><span class="o">.</span><span class="n">hvacs</span><span class="p">:</span>
+            <span class="k">for</span> <span class="n">sched</span> <span class="ow">in</span> <span class="n">hvac</span><span class="o">.</span><span class="n">schedules</span><span class="p">:</span>
+                <span class="bp">self</span><span class="o">.</span><span class="n">_check_and_add_schedule</span><span class="p">(</span><span class="n">sched</span><span class="p">,</span> <span class="n">schedules</span><span class="p">)</span>
+        <span class="k">return</span> <span class="nb">list</span><span class="p">(</span><span class="nb">set</span><span class="p">(</span><span class="n">schedules</span><span class="p">))</span>
+
+    <span class="nd">@property</span>
+    <span class="k">def</span> <span class="nf">program_types</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+        <span class="sd">&quot;&quot;&quot;A list of all unique ProgramTypes in the Model.&quot;&quot;&quot;</span>
+        <span class="n">program_types</span> <span class="o">=</span> <span class="p">[]</span>
+        <span class="k">for</span> <span class="n">room</span> <span class="ow">in</span> <span class="bp">self</span><span class="o">.</span><span class="n">host</span><span class="o">.</span><span class="n">rooms</span><span class="p">:</span>
+            <span class="k">if</span> <span class="n">room</span><span class="o">.</span><span class="n">properties</span><span class="o">.</span><span class="n">energy</span><span class="o">.</span><span class="n">_program_type</span> <span class="ow">is</span> <span class="ow">not</span> <span class="kc">None</span><span class="p">:</span>
+                <span class="k">if</span> <span class="ow">not</span> <span class="bp">self</span><span class="o">.</span><span class="n">_instance_in_array</span><span class="p">(</span><span class="n">room</span><span class="o">.</span><span class="n">properties</span><span class="o">.</span><span class="n">energy</span><span class="o">.</span><span class="n">_program_type</span><span class="p">,</span>
+                                               <span class="n">program_types</span><span class="p">):</span>
+                    <span class="n">program_types</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">room</span><span class="o">.</span><span class="n">properties</span><span class="o">.</span><span class="n">energy</span><span class="o">.</span><span class="n">_program_type</span><span class="p">)</span>
+        <span class="k">return</span> <span class="nb">list</span><span class="p">(</span><span class="nb">set</span><span class="p">(</span><span class="n">program_types</span><span class="p">))</span>  <span class="c1"># catch equivalent program types</span>
+
+    <span class="nd">@property</span>
+    <span class="k">def</span> <span class="nf">hvacs</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+        <span class="sd">&quot;&quot;&quot;A list of all unique HVAC systems in the Model.&quot;&quot;&quot;</span>
+        <span class="n">hvacs</span> <span class="o">=</span> <span class="p">[]</span>
+        <span class="k">for</span> <span class="n">room</span> <span class="ow">in</span> <span class="bp">self</span><span class="o">.</span><span class="n">host</span><span class="o">.</span><span class="n">rooms</span><span class="p">:</span>
+            <span class="k">if</span> <span class="n">room</span><span class="o">.</span><span class="n">properties</span><span class="o">.</span><span class="n">energy</span><span class="o">.</span><span class="n">_hvac</span> <span class="ow">is</span> <span class="ow">not</span> <span class="kc">None</span><span class="p">:</span>
+                <span class="k">if</span> <span class="ow">not</span> <span class="bp">self</span><span class="o">.</span><span class="n">_instance_in_array</span><span class="p">(</span><span class="n">room</span><span class="o">.</span><span class="n">properties</span><span class="o">.</span><span class="n">energy</span><span class="o">.</span><span class="n">_hvac</span><span class="p">,</span> <span class="n">hvacs</span><span class="p">):</span>
+                    <span class="n">hvacs</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">room</span><span class="o">.</span><span class="n">properties</span><span class="o">.</span><span class="n">energy</span><span class="o">.</span><span class="n">_hvac</span><span class="p">)</span>
+        <span class="k">return</span> <span class="n">hvacs</span>
+
+<div class="viewcode-block" id="ModelEnergyProperties.building_idf"><a class="viewcode-back" href="../../../honeybee_energy.properties.model.html#honeybee_energy.properties.model.ModelEnergyProperties.building_idf">[docs]</a>    <span class="k">def</span> <span class="nf">building_idf</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">solar_distribution</span><span class="o">=</span><span class="s1">&#39;FullInteriorAndExteriorWithReflections&#39;</span><span class="p">):</span>
+        <span class="sd">&quot;&quot;&quot;Get an IDF string for Building that this model represents.</span>
+
+<span class="sd">        Args:</span>
+<span class="sd">            solar_distribution: Text desribing how EnergyPlus should treat beam solar</span>
+<span class="sd">                radiation reflected from surfaces. Default:</span>
+<span class="sd">                FullInteriorAndExteriorWithReflections. Choose from the following:</span>
+
+<span class="sd">                * MinimalShadowing</span>
+<span class="sd">                * FullExterior</span>
+<span class="sd">                * FullInteriorAndExterior</span>
+<span class="sd">                * FullExteriorWithReflections</span>
+<span class="sd">                * FullInteriorAndExteriorWithReflections</span>
+<span class="sd">        &quot;&quot;&quot;</span>
+        <span class="n">values</span> <span class="o">=</span> <span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">host</span><span class="o">.</span><span class="n">name</span><span class="p">,</span>
+                  <span class="bp">self</span><span class="o">.</span><span class="n">host</span><span class="o">.</span><span class="n">north_angle</span><span class="p">,</span>
+                  <span class="bp">self</span><span class="o">.</span><span class="n">terrain_type</span><span class="p">,</span>
+                  <span class="s1">&#39;&#39;</span><span class="p">,</span>
+                  <span class="s1">&#39;&#39;</span><span class="p">,</span>
+                  <span class="n">solar_distribution</span><span class="p">)</span>
+        <span class="n">comments</span> <span class="o">=</span> <span class="p">(</span><span class="s1">&#39;name&#39;</span><span class="p">,</span>
+                    <span class="s1">&#39;north axis&#39;</span><span class="p">,</span>
+                    <span class="s1">&#39;terrain&#39;</span><span class="p">,</span>
+                    <span class="s1">&#39;loads convergence tolerance&#39;</span><span class="p">,</span>
+                    <span class="s1">&#39;temperature convergence tolerance&#39;</span><span class="p">,</span>
+                    <span class="s1">&#39;solar distribution&#39;</span><span class="p">)</span>
+        <span class="k">return</span> <span class="n">generate_idf_string</span><span class="p">(</span><span class="s1">&#39;Building&#39;</span><span class="p">,</span> <span class="n">values</span><span class="p">,</span> <span class="n">comments</span><span class="p">)</span></div>
+
+<div class="viewcode-block" id="ModelEnergyProperties.check_duplicate_material_names"><a class="viewcode-back" href="../../../honeybee_energy.properties.model.html#honeybee_energy.properties.model.ModelEnergyProperties.check_duplicate_material_names">[docs]</a>    <span class="k">def</span> <span class="nf">check_duplicate_material_names</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">raise_exception</span><span class="o">=</span><span class="kc">True</span><span class="p">):</span>
+        <span class="sd">&quot;&quot;&quot;Check that there are no duplicate Material names in the model.&quot;&quot;&quot;</span>
+        <span class="n">material_names</span> <span class="o">=</span> <span class="nb">set</span><span class="p">()</span>
+        <span class="n">duplicate_names</span> <span class="o">=</span> <span class="nb">set</span><span class="p">()</span>
+        <span class="k">for</span> <span class="n">mat</span> <span class="ow">in</span> <span class="bp">self</span><span class="o">.</span><span class="n">materials</span><span class="p">:</span>
+            <span class="k">if</span> <span class="n">mat</span><span class="o">.</span><span class="n">name</span> <span class="ow">not</span> <span class="ow">in</span> <span class="n">material_names</span><span class="p">:</span>
+                <span class="n">material_names</span><span class="o">.</span><span class="n">add</span><span class="p">(</span><span class="n">mat</span><span class="o">.</span><span class="n">name</span><span class="p">)</span>
+            <span class="k">else</span><span class="p">:</span>
+                <span class="n">duplicate_names</span><span class="o">.</span><span class="n">add</span><span class="p">(</span><span class="n">mat</span><span class="o">.</span><span class="n">name</span><span class="p">)</span>
+        <span class="k">if</span> <span class="nb">len</span><span class="p">(</span><span class="n">duplicate_names</span><span class="p">)</span> <span class="o">!=</span> <span class="mi">0</span><span class="p">:</span>
+            <span class="k">if</span> <span class="n">raise_exception</span><span class="p">:</span>
+                <span class="k">raise</span> <span class="ne">ValueError</span><span class="p">(</span>
+                    <span class="s1">&#39;The model has the following duplicated Material &#39;</span>
+                    <span class="s1">&#39;names:</span><span class="se">\n</span><span class="si">{}</span><span class="s1">&#39;</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="s1">&#39;</span><span class="se">\n</span><span class="s1">&#39;</span><span class="o">.</span><span class="n">join</span><span class="p">(</span><span class="n">duplicate_names</span><span class="p">)))</span>
+            <span class="k">return</span> <span class="kc">False</span>
+        <span class="k">return</span> <span class="kc">True</span></div>
+
+<div class="viewcode-block" id="ModelEnergyProperties.check_duplicate_construction_names"><a class="viewcode-back" href="../../../honeybee_energy.properties.model.html#honeybee_energy.properties.model.ModelEnergyProperties.check_duplicate_construction_names">[docs]</a>    <span class="k">def</span> <span class="nf">check_duplicate_construction_names</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">raise_exception</span><span class="o">=</span><span class="kc">True</span><span class="p">):</span>
+        <span class="sd">&quot;&quot;&quot;Check that there are no duplicate Construction names in the model.&quot;&quot;&quot;</span>
+        <span class="n">cnstr_names</span> <span class="o">=</span> <span class="nb">set</span><span class="p">()</span>
+        <span class="n">duplicate_names</span> <span class="o">=</span> <span class="nb">set</span><span class="p">()</span>
+        <span class="k">for</span> <span class="n">cnstr</span> <span class="ow">in</span> <span class="bp">self</span><span class="o">.</span><span class="n">constructions</span><span class="p">:</span>
+            <span class="k">if</span> <span class="n">cnstr</span><span class="o">.</span><span class="n">name</span> <span class="ow">not</span> <span class="ow">in</span> <span class="n">cnstr_names</span><span class="p">:</span>
+                <span class="n">cnstr_names</span><span class="o">.</span><span class="n">add</span><span class="p">(</span><span class="n">cnstr</span><span class="o">.</span><span class="n">name</span><span class="p">)</span>
+            <span class="k">else</span><span class="p">:</span>
+                <span class="n">duplicate_names</span><span class="o">.</span><span class="n">add</span><span class="p">(</span><span class="n">cnstr</span><span class="o">.</span><span class="n">name</span><span class="p">)</span>
+        <span class="k">if</span> <span class="nb">len</span><span class="p">(</span><span class="n">duplicate_names</span><span class="p">)</span> <span class="o">!=</span> <span class="mi">0</span><span class="p">:</span>
+            <span class="k">if</span> <span class="n">raise_exception</span><span class="p">:</span>
+                <span class="k">raise</span> <span class="ne">ValueError</span><span class="p">(</span>
+                    <span class="s1">&#39;The model has the following duplicated Construction &#39;</span>
+                    <span class="s1">&#39;names:</span><span class="se">\n</span><span class="si">{}</span><span class="s1">&#39;</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="s1">&#39;</span><span class="se">\n</span><span class="s1">&#39;</span><span class="o">.</span><span class="n">join</span><span class="p">(</span><span class="n">duplicate_names</span><span class="p">)))</span>
+            <span class="k">return</span> <span class="kc">False</span>
+        <span class="k">return</span> <span class="kc">True</span></div>
+
+<div class="viewcode-block" id="ModelEnergyProperties.check_duplicate_construction_set_names"><a class="viewcode-back" href="../../../honeybee_energy.properties.model.html#honeybee_energy.properties.model.ModelEnergyProperties.check_duplicate_construction_set_names">[docs]</a>    <span class="k">def</span> <span class="nf">check_duplicate_construction_set_names</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">raise_exception</span><span class="o">=</span><span class="kc">True</span><span class="p">):</span>
+        <span class="sd">&quot;&quot;&quot;Check that there are no duplicate ConstructionSet names in the model.&quot;&quot;&quot;</span>
+        <span class="n">con_set_names</span> <span class="o">=</span> <span class="nb">set</span><span class="p">()</span>
+        <span class="n">duplicate_names</span> <span class="o">=</span> <span class="nb">set</span><span class="p">()</span>
+        <span class="k">for</span> <span class="n">con_set</span> <span class="ow">in</span> <span class="bp">self</span><span class="o">.</span><span class="n">construction_sets</span> <span class="o">+</span> <span class="p">[</span><span class="bp">self</span><span class="o">.</span><span class="n">global_construction_set</span><span class="p">]:</span>
+            <span class="k">if</span> <span class="n">con_set</span><span class="o">.</span><span class="n">name</span> <span class="ow">not</span> <span class="ow">in</span> <span class="n">con_set_names</span><span class="p">:</span>
+                <span class="n">con_set_names</span><span class="o">.</span><span class="n">add</span><span class="p">(</span><span class="n">con_set</span><span class="o">.</span><span class="n">name</span><span class="p">)</span>
+            <span class="k">else</span><span class="p">:</span>
+                <span class="n">duplicate_names</span><span class="o">.</span><span class="n">add</span><span class="p">(</span><span class="n">con_set</span><span class="o">.</span><span class="n">name</span><span class="p">)</span>
+        <span class="k">if</span> <span class="nb">len</span><span class="p">(</span><span class="n">duplicate_names</span><span class="p">)</span> <span class="o">!=</span> <span class="mi">0</span><span class="p">:</span>
+            <span class="k">if</span> <span class="n">raise_exception</span><span class="p">:</span>
+                <span class="k">raise</span> <span class="ne">ValueError</span><span class="p">(</span>
+                    <span class="s1">&#39;The model has the following duplicated ConstructionSet &#39;</span>
+                    <span class="s1">&#39;names:</span><span class="se">\n</span><span class="si">{}</span><span class="s1">&#39;</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="s1">&#39;</span><span class="se">\n</span><span class="s1">&#39;</span><span class="o">.</span><span class="n">join</span><span class="p">(</span><span class="n">duplicate_names</span><span class="p">)))</span>
+            <span class="k">return</span> <span class="kc">False</span>
+        <span class="k">return</span> <span class="kc">True</span></div>
+
+<div class="viewcode-block" id="ModelEnergyProperties.check_duplicate_schedule_type_limit_names"><a class="viewcode-back" href="../../../honeybee_energy.properties.model.html#honeybee_energy.properties.model.ModelEnergyProperties.check_duplicate_schedule_type_limit_names">[docs]</a>    <span class="k">def</span> <span class="nf">check_duplicate_schedule_type_limit_names</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">raise_exception</span><span class="o">=</span><span class="kc">True</span><span class="p">):</span>
+        <span class="sd">&quot;&quot;&quot;Check that there are no duplicate ScheduleTypeLimit names in the model.&quot;&quot;&quot;</span>
+        <span class="n">sched_type_limit_names</span> <span class="o">=</span> <span class="nb">set</span><span class="p">()</span>
+        <span class="n">duplicate_names</span> <span class="o">=</span> <span class="nb">set</span><span class="p">()</span>
+        <span class="k">for</span> <span class="n">t_lim</span> <span class="ow">in</span> <span class="bp">self</span><span class="o">.</span><span class="n">schedule_type_limits</span><span class="p">:</span>
+            <span class="k">if</span> <span class="n">t_lim</span><span class="o">.</span><span class="n">name</span> <span class="ow">not</span> <span class="ow">in</span> <span class="n">sched_type_limit_names</span><span class="p">:</span>
+                <span class="n">sched_type_limit_names</span><span class="o">.</span><span class="n">add</span><span class="p">(</span><span class="n">t_lim</span><span class="o">.</span><span class="n">name</span><span class="p">)</span>
+            <span class="k">else</span><span class="p">:</span>
+                <span class="n">duplicate_names</span><span class="o">.</span><span class="n">add</span><span class="p">(</span><span class="n">t_lim</span><span class="o">.</span><span class="n">name</span><span class="p">)</span>
+        <span class="k">if</span> <span class="nb">len</span><span class="p">(</span><span class="n">duplicate_names</span><span class="p">)</span> <span class="o">!=</span> <span class="mi">0</span><span class="p">:</span>
+            <span class="k">if</span> <span class="n">raise_exception</span><span class="p">:</span>
+                <span class="k">raise</span> <span class="ne">ValueError</span><span class="p">(</span>
+                    <span class="s1">&#39;The model has the following duplicated ScheduleTypeLimit &#39;</span>
+                    <span class="s1">&#39;names:</span><span class="se">\n</span><span class="si">{}</span><span class="s1">&#39;</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="s1">&#39;</span><span class="se">\n</span><span class="s1">&#39;</span><span class="o">.</span><span class="n">join</span><span class="p">(</span><span class="n">duplicate_names</span><span class="p">)))</span>
+            <span class="k">return</span> <span class="kc">False</span>
+        <span class="k">return</span> <span class="kc">True</span></div>
+
+<div class="viewcode-block" id="ModelEnergyProperties.check_duplicate_schedule_names"><a class="viewcode-back" href="../../../honeybee_energy.properties.model.html#honeybee_energy.properties.model.ModelEnergyProperties.check_duplicate_schedule_names">[docs]</a>    <span class="k">def</span> <span class="nf">check_duplicate_schedule_names</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">raise_exception</span><span class="o">=</span><span class="kc">True</span><span class="p">):</span>
+        <span class="sd">&quot;&quot;&quot;Check that there are no duplicate Schedule names in the model.&quot;&quot;&quot;</span>
+        <span class="n">sched_names</span> <span class="o">=</span> <span class="nb">set</span><span class="p">()</span>
+        <span class="n">duplicate_names</span> <span class="o">=</span> <span class="nb">set</span><span class="p">()</span>
+        <span class="k">for</span> <span class="n">sched</span> <span class="ow">in</span> <span class="bp">self</span><span class="o">.</span><span class="n">schedules</span><span class="p">:</span>
+            <span class="k">if</span> <span class="n">sched</span><span class="o">.</span><span class="n">name</span> <span class="ow">not</span> <span class="ow">in</span> <span class="n">sched_names</span><span class="p">:</span>
+                <span class="n">sched_names</span><span class="o">.</span><span class="n">add</span><span class="p">(</span><span class="n">sched</span><span class="o">.</span><span class="n">name</span><span class="p">)</span>
+            <span class="k">else</span><span class="p">:</span>
+                <span class="n">duplicate_names</span><span class="o">.</span><span class="n">add</span><span class="p">(</span><span class="n">sched</span><span class="o">.</span><span class="n">name</span><span class="p">)</span>
+        <span class="k">if</span> <span class="nb">len</span><span class="p">(</span><span class="n">duplicate_names</span><span class="p">)</span> <span class="o">!=</span> <span class="mi">0</span><span class="p">:</span>
+            <span class="k">if</span> <span class="n">raise_exception</span><span class="p">:</span>
+                <span class="k">raise</span> <span class="ne">ValueError</span><span class="p">(</span>
+                    <span class="s1">&#39;The model has the following duplicated Schedule &#39;</span>
+                    <span class="s1">&#39;names:</span><span class="se">\n</span><span class="si">{}</span><span class="s1">&#39;</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="s1">&#39;</span><span class="se">\n</span><span class="s1">&#39;</span><span class="o">.</span><span class="n">join</span><span class="p">(</span><span class="n">duplicate_names</span><span class="p">)))</span>
+            <span class="k">return</span> <span class="kc">False</span>
+        <span class="k">return</span> <span class="kc">True</span></div>
+
+<div class="viewcode-block" id="ModelEnergyProperties.check_duplicate_program_type_names"><a class="viewcode-back" href="../../../honeybee_energy.properties.model.html#honeybee_energy.properties.model.ModelEnergyProperties.check_duplicate_program_type_names">[docs]</a>    <span class="k">def</span> <span class="nf">check_duplicate_program_type_names</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">raise_exception</span><span class="o">=</span><span class="kc">True</span><span class="p">):</span>
+        <span class="sd">&quot;&quot;&quot;Check that there are no duplicate ProgramType names in the model.&quot;&quot;&quot;</span>
+        <span class="n">p_type_names</span> <span class="o">=</span> <span class="nb">set</span><span class="p">()</span>
+        <span class="n">duplicate_names</span> <span class="o">=</span> <span class="nb">set</span><span class="p">()</span>
+        <span class="k">for</span> <span class="n">p_type</span> <span class="ow">in</span> <span class="bp">self</span><span class="o">.</span><span class="n">program_types</span><span class="p">:</span>
+            <span class="k">if</span> <span class="n">p_type</span><span class="o">.</span><span class="n">name</span> <span class="ow">not</span> <span class="ow">in</span> <span class="n">p_type_names</span><span class="p">:</span>
+                <span class="n">p_type_names</span><span class="o">.</span><span class="n">add</span><span class="p">(</span><span class="n">p_type</span><span class="o">.</span><span class="n">name</span><span class="p">)</span>
+            <span class="k">else</span><span class="p">:</span>
+                <span class="n">duplicate_names</span><span class="o">.</span><span class="n">add</span><span class="p">(</span><span class="n">p_type</span><span class="o">.</span><span class="n">name</span><span class="p">)</span>
+        <span class="k">if</span> <span class="nb">len</span><span class="p">(</span><span class="n">duplicate_names</span><span class="p">)</span> <span class="o">!=</span> <span class="mi">0</span><span class="p">:</span>
+            <span class="k">if</span> <span class="n">raise_exception</span><span class="p">:</span>
+                <span class="k">raise</span> <span class="ne">ValueError</span><span class="p">(</span>
+                    <span class="s1">&#39;The model has the following duplicated ProgramType &#39;</span>
+                    <span class="s1">&#39;names:</span><span class="se">\n</span><span class="si">{}</span><span class="s1">&#39;</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="s1">&#39;</span><span class="se">\n</span><span class="s1">&#39;</span><span class="o">.</span><span class="n">join</span><span class="p">(</span><span class="n">duplicate_names</span><span class="p">)))</span>
+            <span class="k">return</span> <span class="kc">False</span>
+        <span class="k">return</span> <span class="kc">True</span></div>
+
+<div class="viewcode-block" id="ModelEnergyProperties.check_duplicate_hvac_names"><a class="viewcode-back" href="../../../honeybee_energy.properties.model.html#honeybee_energy.properties.model.ModelEnergyProperties.check_duplicate_hvac_names">[docs]</a>    <span class="k">def</span> <span class="nf">check_duplicate_hvac_names</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">raise_exception</span><span class="o">=</span><span class="kc">True</span><span class="p">):</span>
+        <span class="sd">&quot;&quot;&quot;Check that there are no duplicate HVAC names in the model.&quot;&quot;&quot;</span>
+        <span class="n">hvac_names</span> <span class="o">=</span> <span class="nb">set</span><span class="p">()</span>
+        <span class="n">duplicate_names</span> <span class="o">=</span> <span class="nb">set</span><span class="p">()</span>
+        <span class="k">for</span> <span class="n">hvac</span> <span class="ow">in</span> <span class="bp">self</span><span class="o">.</span><span class="n">hvacs</span><span class="p">:</span>
+            <span class="k">if</span> <span class="n">hvac</span><span class="o">.</span><span class="n">name</span> <span class="ow">not</span> <span class="ow">in</span> <span class="n">hvac_names</span><span class="p">:</span>
+                <span class="n">hvac_names</span><span class="o">.</span><span class="n">add</span><span class="p">(</span><span class="n">hvac</span><span class="o">.</span><span class="n">name</span><span class="p">)</span>
+            <span class="k">else</span><span class="p">:</span>
+                <span class="n">duplicate_names</span><span class="o">.</span><span class="n">add</span><span class="p">(</span><span class="n">hvac</span><span class="o">.</span><span class="n">name</span><span class="p">)</span>
+        <span class="k">if</span> <span class="nb">len</span><span class="p">(</span><span class="n">duplicate_names</span><span class="p">)</span> <span class="o">!=</span> <span class="mi">0</span><span class="p">:</span>
+            <span class="k">if</span> <span class="n">raise_exception</span><span class="p">:</span>
+                <span class="k">raise</span> <span class="ne">ValueError</span><span class="p">(</span>
+                    <span class="s1">&#39;The model has the following duplicated HVAC system &#39;</span>
+                    <span class="s1">&#39;names:</span><span class="se">\n</span><span class="si">{}</span><span class="s1">&#39;</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="s1">&#39;</span><span class="se">\n</span><span class="s1">&#39;</span><span class="o">.</span><span class="n">join</span><span class="p">(</span><span class="n">duplicate_names</span><span class="p">)))</span>
+            <span class="k">return</span> <span class="kc">False</span>
+        <span class="k">return</span> <span class="kc">True</span></div>
+
+<div class="viewcode-block" id="ModelEnergyProperties.apply_properties_from_dict"><a class="viewcode-back" href="../../../honeybee_energy.properties.model.html#honeybee_energy.properties.model.ModelEnergyProperties.apply_properties_from_dict">[docs]</a>    <span class="k">def</span> <span class="nf">apply_properties_from_dict</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">data</span><span class="p">):</span>
+        <span class="sd">&quot;&quot;&quot;Apply the energy properties of a dictionary to the host Model of this object.</span>
+
+<span class="sd">        Args:</span>
+<span class="sd">            data: A dictionary representation of an entire honeybee-core Model.</span>
+<span class="sd">                Note that this dictionary must have ModelEnergyProperties in order</span>
+<span class="sd">                for this method to successfully apply the energy properties.</span>
+<span class="sd">        &quot;&quot;&quot;</span>
+        <span class="k">assert</span> <span class="s1">&#39;energy&#39;</span> <span class="ow">in</span> <span class="n">data</span><span class="p">[</span><span class="s1">&#39;properties&#39;</span><span class="p">],</span> \
+            <span class="s1">&#39;Dictionary possesses no ModelEnergyProperties.&#39;</span>
+
+        <span class="c1"># set the terrain</span>
+        <span class="k">if</span> <span class="s1">&#39;terrain_type&#39;</span> <span class="ow">in</span> <span class="n">data</span><span class="p">[</span><span class="s1">&#39;properties&#39;</span><span class="p">][</span><span class="s1">&#39;energy&#39;</span><span class="p">]:</span>
+            <span class="bp">self</span><span class="o">.</span><span class="n">terrain_type</span> <span class="o">=</span> <span class="n">data</span><span class="p">[</span><span class="s1">&#39;properties&#39;</span><span class="p">][</span><span class="s1">&#39;energy&#39;</span><span class="p">][</span><span class="s1">&#39;terrain_type&#39;</span><span class="p">]</span>
+
+        <span class="n">materials</span><span class="p">,</span> <span class="n">constructions</span><span class="p">,</span> <span class="n">construction_sets</span><span class="p">,</span> <span class="n">schedule_type_limits</span><span class="p">,</span> \
+            <span class="n">schedules</span><span class="p">,</span> <span class="n">program_types</span><span class="p">,</span> <span class="n">hvacs</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">load_properties_from_dict</span><span class="p">(</span><span class="n">data</span><span class="p">)</span>
+
+        <span class="c1"># collect lists of energy property dictionaries</span>
+        <span class="n">room_e_dicts</span><span class="p">,</span> <span class="n">face_e_dicts</span><span class="p">,</span> <span class="n">shd_e_dicts</span><span class="p">,</span> <span class="n">ap_e_dicts</span><span class="p">,</span> <span class="n">dr_e_dicts</span> <span class="o">=</span> \
+            <span class="n">model_extension_dicts</span><span class="p">(</span><span class="n">data</span><span class="p">,</span> <span class="s1">&#39;energy&#39;</span><span class="p">,</span> <span class="p">[],</span> <span class="p">[],</span> <span class="p">[],</span> <span class="p">[],</span> <span class="p">[])</span>
+
+        <span class="c1"># apply energy properties to objects using the energy property dictionaries</span>
+        <span class="k">for</span> <span class="n">room</span><span class="p">,</span> <span class="n">r_dict</span> <span class="ow">in</span> <span class="nb">zip</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">host</span><span class="o">.</span><span class="n">rooms</span><span class="p">,</span> <span class="n">room_e_dicts</span><span class="p">):</span>
+            <span class="k">if</span> <span class="n">r_dict</span> <span class="ow">is</span> <span class="ow">not</span> <span class="kc">None</span><span class="p">:</span>
+                <span class="n">room</span><span class="o">.</span><span class="n">properties</span><span class="o">.</span><span class="n">energy</span><span class="o">.</span><span class="n">apply_properties_from_dict</span><span class="p">(</span>
+                    <span class="n">r_dict</span><span class="p">,</span> <span class="n">construction_sets</span><span class="p">,</span> <span class="n">program_types</span><span class="p">,</span> <span class="n">hvacs</span><span class="p">,</span> <span class="n">schedules</span><span class="p">)</span>
+        <span class="k">for</span> <span class="n">face</span><span class="p">,</span> <span class="n">f_dict</span> <span class="ow">in</span> <span class="nb">zip</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">host</span><span class="o">.</span><span class="n">faces</span><span class="p">,</span> <span class="n">face_e_dicts</span><span class="p">):</span>
+            <span class="k">if</span> <span class="n">f_dict</span> <span class="ow">is</span> <span class="ow">not</span> <span class="kc">None</span><span class="p">:</span>
+                <span class="n">face</span><span class="o">.</span><span class="n">properties</span><span class="o">.</span><span class="n">energy</span><span class="o">.</span><span class="n">apply_properties_from_dict</span><span class="p">(</span><span class="n">f_dict</span><span class="p">,</span> <span class="n">constructions</span><span class="p">)</span>
+        <span class="k">for</span> <span class="n">shade</span><span class="p">,</span> <span class="n">s_dict</span> <span class="ow">in</span> <span class="nb">zip</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">host</span><span class="o">.</span><span class="n">shades</span><span class="p">,</span> <span class="n">shd_e_dicts</span><span class="p">):</span>
+            <span class="k">if</span> <span class="n">s_dict</span> <span class="ow">is</span> <span class="ow">not</span> <span class="kc">None</span><span class="p">:</span>
+                <span class="n">shade</span><span class="o">.</span><span class="n">properties</span><span class="o">.</span><span class="n">energy</span><span class="o">.</span><span class="n">apply_properties_from_dict</span><span class="p">(</span>
+                    <span class="n">s_dict</span><span class="p">,</span> <span class="n">constructions</span><span class="p">,</span> <span class="n">schedules</span><span class="p">)</span>
+        <span class="k">for</span> <span class="n">aperture</span><span class="p">,</span> <span class="n">a_dict</span> <span class="ow">in</span> <span class="nb">zip</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">host</span><span class="o">.</span><span class="n">apertures</span><span class="p">,</span> <span class="n">ap_e_dicts</span><span class="p">):</span>
+            <span class="k">if</span> <span class="n">a_dict</span> <span class="ow">is</span> <span class="ow">not</span> <span class="kc">None</span><span class="p">:</span>
+                <span class="n">aperture</span><span class="o">.</span><span class="n">properties</span><span class="o">.</span><span class="n">energy</span><span class="o">.</span><span class="n">apply_properties_from_dict</span><span class="p">(</span>
+                    <span class="n">a_dict</span><span class="p">,</span> <span class="n">constructions</span><span class="p">)</span>
+        <span class="k">for</span> <span class="n">door</span><span class="p">,</span> <span class="n">d_dict</span> <span class="ow">in</span> <span class="nb">zip</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">host</span><span class="o">.</span><span class="n">doors</span><span class="p">,</span> <span class="n">dr_e_dicts</span><span class="p">):</span>
+            <span class="k">if</span> <span class="n">d_dict</span> <span class="ow">is</span> <span class="ow">not</span> <span class="kc">None</span><span class="p">:</span>
+                <span class="n">door</span><span class="o">.</span><span class="n">properties</span><span class="o">.</span><span class="n">energy</span><span class="o">.</span><span class="n">apply_properties_from_dict</span><span class="p">(</span>
+                    <span class="n">d_dict</span><span class="p">,</span> <span class="n">constructions</span><span class="p">)</span></div>
+
+<div class="viewcode-block" id="ModelEnergyProperties.to_dict"><a class="viewcode-back" href="../../../honeybee_energy.properties.model.html#honeybee_energy.properties.model.ModelEnergyProperties.to_dict">[docs]</a>    <span class="k">def</span> <span class="nf">to_dict</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">include_global_construction_set</span><span class="o">=</span><span class="kc">True</span><span class="p">):</span>
+        <span class="sd">&quot;&quot;&quot;Return Model energy properties as a dictionary.</span>
+
+<span class="sd">        include_global_construction_set: Boolean to note whether the</span>
+<span class="sd">            global_construction_set should be included within the dictionary. This</span>
+<span class="sd">            will ensure that all objects lacking a construction specification always</span>
+<span class="sd">            have a default construction. Default: True.</span>
+<span class="sd">        &quot;&quot;&quot;</span>
+        <span class="n">base</span> <span class="o">=</span> <span class="p">{</span><span class="s1">&#39;energy&#39;</span><span class="p">:</span> <span class="p">{</span><span class="s1">&#39;type&#39;</span><span class="p">:</span> <span class="s1">&#39;ModelEnergyProperties&#39;</span><span class="p">}}</span>
+
+        <span class="c1"># add the terrain</span>
+        <span class="n">base</span><span class="p">[</span><span class="s1">&#39;energy&#39;</span><span class="p">][</span><span class="s1">&#39;terrain_type&#39;</span><span class="p">]</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">terrain_type</span>
+
+        <span class="c1"># add all materials, constructions and construction sets to the dictionary</span>
+        <span class="n">schs</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">_add_constr_type_objs_to_dict</span><span class="p">(</span><span class="n">base</span><span class="p">,</span> <span class="n">include_global_construction_set</span><span class="p">)</span>
+
+        <span class="c1"># add all schedule type limits, schedules, program types and hvacs to the dict</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">_add_sched_type_objs_to_dict</span><span class="p">(</span><span class="n">base</span><span class="p">,</span> <span class="n">schs</span><span class="p">)</span>
+
+        <span class="k">return</span> <span class="n">base</span></div>
+
+<div class="viewcode-block" id="ModelEnergyProperties.duplicate"><a class="viewcode-back" href="../../../honeybee_energy.properties.model.html#honeybee_energy.properties.model.ModelEnergyProperties.duplicate">[docs]</a>    <span class="k">def</span> <span class="nf">duplicate</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">new_host</span><span class="o">=</span><span class="kc">None</span><span class="p">):</span>
+        <span class="sd">&quot;&quot;&quot;Get a copy of this object.</span>
+
+<span class="sd">        Args:</span>
+<span class="sd">            new_host: A new Model object that hosts these properties.</span>
+<span class="sd">                If None, the properties will be duplicated with the same host.</span>
+<span class="sd">        &quot;&quot;&quot;</span>
+        <span class="n">_host</span> <span class="o">=</span> <span class="n">new_host</span> <span class="ow">or</span> <span class="bp">self</span><span class="o">.</span><span class="n">_host</span>
+        <span class="k">return</span> <span class="n">ModelEnergyProperties</span><span class="p">(</span><span class="n">_host</span><span class="p">,</span> <span class="bp">self</span><span class="o">.</span><span class="n">terrain_type</span><span class="p">)</span></div>
+
+<div class="viewcode-block" id="ModelEnergyProperties.load_properties_from_dict"><a class="viewcode-back" href="../../../honeybee_energy.properties.model.html#honeybee_energy.properties.model.ModelEnergyProperties.load_properties_from_dict">[docs]</a>    <span class="nd">@staticmethod</span>
+    <span class="k">def</span> <span class="nf">load_properties_from_dict</span><span class="p">(</span><span class="n">data</span><span class="p">):</span>
+        <span class="sd">&quot;&quot;&quot;Load model energy properties of a dictionary to Python objects.</span>
+
+<span class="sd">        Loaded objects include Materials, Constructions, ConstructionSets,</span>
+<span class="sd">        ScheduleTypeLimits, Schedules, and ProgramTypes.</span>
+
+<span class="sd">        The function is called when re-serializing a Model object from a dictionary</span>
+<span class="sd">        to load honeybee_energy objects into their Python object form before</span>
+<span class="sd">        applying them to the Model geometry.</span>
+
+<span class="sd">        Args:</span>
+<span class="sd">            data: A dictionary representation of an entire honeybee-core Model.</span>
+<span class="sd">                Note that this dictionary must have ModelEnergyProperties in order</span>
+<span class="sd">                for this method to successfully load the energy properties.</span>
+
+<span class="sd">        Returns:</span>
+<span class="sd">            A tuple with seven elements</span>
+
+<span class="sd">            -   materials -- A dictionary with names of materials as keys and Python</span>
+<span class="sd">                material objects as values.</span>
+
+<span class="sd">            -   constructions -- A dictionary with names of constructions as keys and Python</span>
+<span class="sd">                construction objects as values.</span>
+
+<span class="sd">            -   construction_sets -- A dictionary with names of construction sets as keys</span>
+<span class="sd">                and Python construction set objects as values.</span>
+
+<span class="sd">            -   schedule_type_limits -- A dictionary with names of schedule type limits</span>
+<span class="sd">                as keys and Python schedule type limit objects as values.</span>
+
+<span class="sd">            -   schedules -- A dictionary with names of schedules as keys and Python</span>
+<span class="sd">                schedule objects as values.</span>
+
+<span class="sd">            -   program_types -- A dictionary with names of program types as keys and Python</span>
+<span class="sd">                program type objects as values.</span>
+
+<span class="sd">            -   hvacs -- A dictionary with names of HVAC systems as keys and Python</span>
+<span class="sd">                HVACSystem objects as values.</span>
+<span class="sd">        &quot;&quot;&quot;</span>
+        <span class="k">assert</span> <span class="s1">&#39;energy&#39;</span> <span class="ow">in</span> <span class="n">data</span><span class="p">[</span><span class="s1">&#39;properties&#39;</span><span class="p">],</span> \
+            <span class="s1">&#39;Dictionary possesses no ModelEnergyProperties.&#39;</span>
+
+        <span class="c1"># process all schedule type limits in the ModelEnergyProperties dictionary</span>
+        <span class="n">schedule_type_limits</span> <span class="o">=</span> <span class="p">{}</span>
+        <span class="k">if</span> <span class="s1">&#39;schedule_type_limits&#39;</span> <span class="ow">in</span> <span class="n">data</span><span class="p">[</span><span class="s1">&#39;properties&#39;</span><span class="p">][</span><span class="s1">&#39;energy&#39;</span><span class="p">]</span> <span class="ow">and</span> \
+                <span class="n">data</span><span class="p">[</span><span class="s1">&#39;properties&#39;</span><span class="p">][</span><span class="s1">&#39;energy&#39;</span><span class="p">][</span><span class="s1">&#39;schedule_type_limits&#39;</span><span class="p">]</span> <span class="ow">is</span> <span class="ow">not</span> <span class="kc">None</span><span class="p">:</span>
+            <span class="k">for</span> <span class="n">t_lim</span> <span class="ow">in</span> <span class="n">data</span><span class="p">[</span><span class="s1">&#39;properties&#39;</span><span class="p">][</span><span class="s1">&#39;energy&#39;</span><span class="p">][</span><span class="s1">&#39;schedule_type_limits&#39;</span><span class="p">]:</span>
+                <span class="n">schedule_type_limits</span><span class="p">[</span><span class="n">t_lim</span><span class="p">[</span><span class="s1">&#39;name&#39;</span><span class="p">]]</span> <span class="o">=</span> <span class="n">ScheduleTypeLimit</span><span class="o">.</span><span class="n">from_dict</span><span class="p">(</span><span class="n">t_lim</span><span class="p">)</span>
+
+        <span class="c1"># process all schedules in the ModelEnergyProperties dictionary</span>
+        <span class="n">schedules</span> <span class="o">=</span> <span class="p">{}</span>
+        <span class="k">if</span> <span class="s1">&#39;schedules&#39;</span> <span class="ow">in</span> <span class="n">data</span><span class="p">[</span><span class="s1">&#39;properties&#39;</span><span class="p">][</span><span class="s1">&#39;energy&#39;</span><span class="p">]</span> <span class="ow">and</span> \
+                <span class="n">data</span><span class="p">[</span><span class="s1">&#39;properties&#39;</span><span class="p">][</span><span class="s1">&#39;energy&#39;</span><span class="p">][</span><span class="s1">&#39;schedules&#39;</span><span class="p">]</span> <span class="ow">is</span> <span class="ow">not</span> <span class="kc">None</span><span class="p">:</span>
+            <span class="k">for</span> <span class="n">sched</span> <span class="ow">in</span> <span class="n">data</span><span class="p">[</span><span class="s1">&#39;properties&#39;</span><span class="p">][</span><span class="s1">&#39;energy&#39;</span><span class="p">][</span><span class="s1">&#39;schedules&#39;</span><span class="p">]:</span>
+                <span class="k">if</span> <span class="n">sched</span><span class="p">[</span><span class="s1">&#39;type&#39;</span><span class="p">]</span> <span class="ow">in</span> <span class="n">SCHEDULE_TYPES</span><span class="p">:</span>
+                    <span class="n">schedules</span><span class="p">[</span><span class="n">sched</span><span class="p">[</span><span class="s1">&#39;name&#39;</span><span class="p">]]</span> <span class="o">=</span> <span class="n">dict_to_schedule</span><span class="p">(</span><span class="n">sched</span><span class="p">)</span>
+                <span class="k">else</span><span class="p">:</span>
+                    <span class="n">schedules</span><span class="p">[</span><span class="n">sched</span><span class="p">[</span><span class="s1">&#39;name&#39;</span><span class="p">]]</span> <span class="o">=</span> <span class="n">dict_abridged_to_schedule</span><span class="p">(</span>
+                        <span class="n">sched</span><span class="p">,</span> <span class="n">schedule_type_limits</span><span class="p">)</span>
+
+        <span class="c1"># process all materials in the ModelEnergyProperties dictionary</span>
+        <span class="n">materials</span> <span class="o">=</span> <span class="p">{}</span>
+        <span class="k">for</span> <span class="n">mat</span> <span class="ow">in</span> <span class="n">data</span><span class="p">[</span><span class="s1">&#39;properties&#39;</span><span class="p">][</span><span class="s1">&#39;energy&#39;</span><span class="p">][</span><span class="s1">&#39;materials&#39;</span><span class="p">]:</span>
+            <span class="n">materials</span><span class="p">[</span><span class="n">mat</span><span class="p">[</span><span class="s1">&#39;name&#39;</span><span class="p">]]</span> <span class="o">=</span> <span class="n">dict_to_material</span><span class="p">(</span><span class="n">mat</span><span class="p">)</span>
+
+        <span class="c1"># process all constructions in the ModelEnergyProperties dictionary</span>
+        <span class="n">constructions</span> <span class="o">=</span> <span class="p">{}</span>
+        <span class="k">for</span> <span class="n">cnstr</span> <span class="ow">in</span> <span class="n">data</span><span class="p">[</span><span class="s1">&#39;properties&#39;</span><span class="p">][</span><span class="s1">&#39;energy&#39;</span><span class="p">][</span><span class="s1">&#39;constructions&#39;</span><span class="p">]:</span>
+            <span class="k">if</span> <span class="n">cnstr</span><span class="p">[</span><span class="s1">&#39;type&#39;</span><span class="p">]</span> <span class="ow">in</span> <span class="n">CONSTRUCTION_TYPES</span><span class="p">:</span>
+                <span class="n">constructions</span><span class="p">[</span><span class="n">cnstr</span><span class="p">[</span><span class="s1">&#39;name&#39;</span><span class="p">]]</span> <span class="o">=</span> <span class="n">dict_to_construction</span><span class="p">(</span><span class="n">cnstr</span><span class="p">)</span>
+            <span class="k">else</span><span class="p">:</span>
+                <span class="n">constructions</span><span class="p">[</span><span class="n">cnstr</span><span class="p">[</span><span class="s1">&#39;name&#39;</span><span class="p">]]</span> <span class="o">=</span> \
+                    <span class="n">dict_abridged_to_construction</span><span class="p">(</span><span class="n">cnstr</span><span class="p">,</span> <span class="n">materials</span><span class="p">,</span> <span class="n">schedules</span><span class="p">)</span>
+
+        <span class="c1"># process all construction sets in the ModelEnergyProperties dictionary</span>
+        <span class="n">construction_sets</span> <span class="o">=</span> <span class="p">{}</span>
+        <span class="k">if</span> <span class="s1">&#39;construction_sets&#39;</span> <span class="ow">in</span> <span class="n">data</span><span class="p">[</span><span class="s1">&#39;properties&#39;</span><span class="p">][</span><span class="s1">&#39;energy&#39;</span><span class="p">]</span> <span class="ow">and</span> \
+                <span class="n">data</span><span class="p">[</span><span class="s1">&#39;properties&#39;</span><span class="p">][</span><span class="s1">&#39;energy&#39;</span><span class="p">][</span><span class="s1">&#39;construction_sets&#39;</span><span class="p">]</span> <span class="ow">is</span> <span class="ow">not</span> <span class="kc">None</span><span class="p">:</span>
+            <span class="k">for</span> <span class="n">c_set</span> <span class="ow">in</span> <span class="n">data</span><span class="p">[</span><span class="s1">&#39;properties&#39;</span><span class="p">][</span><span class="s1">&#39;energy&#39;</span><span class="p">][</span><span class="s1">&#39;construction_sets&#39;</span><span class="p">]:</span>
+                <span class="k">if</span> <span class="n">c_set</span><span class="p">[</span><span class="s1">&#39;type&#39;</span><span class="p">]</span> <span class="o">==</span> <span class="s1">&#39;ConstructionSet&#39;</span><span class="p">:</span>
+                    <span class="n">construction_sets</span><span class="p">[</span><span class="n">c_set</span><span class="p">[</span><span class="s1">&#39;name&#39;</span><span class="p">]]</span> <span class="o">=</span> <span class="n">ConstructionSet</span><span class="o">.</span><span class="n">from_dict</span><span class="p">(</span><span class="n">c_set</span><span class="p">)</span>
+                <span class="k">else</span><span class="p">:</span>
+                    <span class="n">construction_sets</span><span class="p">[</span><span class="n">c_set</span><span class="p">[</span><span class="s1">&#39;name&#39;</span><span class="p">]]</span> <span class="o">=</span> \
+                        <span class="n">ConstructionSet</span><span class="o">.</span><span class="n">from_dict_abridged</span><span class="p">(</span><span class="n">c_set</span><span class="p">,</span> <span class="n">constructions</span><span class="p">)</span>
+
+        <span class="c1"># process all ProgramType in the ModelEnergyProperties dictionary</span>
+        <span class="n">program_types</span> <span class="o">=</span> <span class="p">{}</span>
+        <span class="k">if</span> <span class="s1">&#39;program_types&#39;</span> <span class="ow">in</span> <span class="n">data</span><span class="p">[</span><span class="s1">&#39;properties&#39;</span><span class="p">][</span><span class="s1">&#39;energy&#39;</span><span class="p">]</span> <span class="ow">and</span> \
+                <span class="n">data</span><span class="p">[</span><span class="s1">&#39;properties&#39;</span><span class="p">][</span><span class="s1">&#39;energy&#39;</span><span class="p">][</span><span class="s1">&#39;program_types&#39;</span><span class="p">]</span> <span class="ow">is</span> <span class="ow">not</span> <span class="kc">None</span><span class="p">:</span>
+            <span class="k">for</span> <span class="n">p_typ</span> <span class="ow">in</span> <span class="n">data</span><span class="p">[</span><span class="s1">&#39;properties&#39;</span><span class="p">][</span><span class="s1">&#39;energy&#39;</span><span class="p">][</span><span class="s1">&#39;program_types&#39;</span><span class="p">]:</span>
+                <span class="k">if</span> <span class="n">p_typ</span><span class="p">[</span><span class="s1">&#39;type&#39;</span><span class="p">]</span> <span class="o">==</span> <span class="s1">&#39;ProgramType&#39;</span><span class="p">:</span>
+                    <span class="n">program_types</span><span class="p">[</span><span class="n">p_typ</span><span class="p">[</span><span class="s1">&#39;name&#39;</span><span class="p">]]</span> <span class="o">=</span> <span class="n">ProgramType</span><span class="o">.</span><span class="n">from_dict</span><span class="p">(</span><span class="n">p_typ</span><span class="p">)</span>
+                <span class="k">else</span><span class="p">:</span>
+                    <span class="n">program_types</span><span class="p">[</span><span class="n">p_typ</span><span class="p">[</span><span class="s1">&#39;name&#39;</span><span class="p">]]</span> <span class="o">=</span> \
+                        <span class="n">ProgramType</span><span class="o">.</span><span class="n">from_dict_abridged</span><span class="p">(</span><span class="n">p_typ</span><span class="p">,</span> <span class="n">schedules</span><span class="p">)</span>
+
+        <span class="c1"># process all HVAC systems in the ModelEnergyProperties dictionary</span>
+        <span class="n">hvacs</span> <span class="o">=</span> <span class="p">{}</span>
+        <span class="k">if</span> <span class="s1">&#39;hvacs&#39;</span> <span class="ow">in</span> <span class="n">data</span><span class="p">[</span><span class="s1">&#39;properties&#39;</span><span class="p">][</span><span class="s1">&#39;energy&#39;</span><span class="p">]</span>  <span class="ow">and</span> \
+                <span class="n">data</span><span class="p">[</span><span class="s1">&#39;properties&#39;</span><span class="p">][</span><span class="s1">&#39;energy&#39;</span><span class="p">][</span><span class="s1">&#39;hvacs&#39;</span><span class="p">]</span> <span class="ow">is</span> <span class="ow">not</span> <span class="kc">None</span><span class="p">:</span>
+            <span class="k">for</span> <span class="n">hvac</span> <span class="ow">in</span> <span class="n">data</span><span class="p">[</span><span class="s1">&#39;properties&#39;</span><span class="p">][</span><span class="s1">&#39;energy&#39;</span><span class="p">][</span><span class="s1">&#39;hvacs&#39;</span><span class="p">]:</span>
+                <span class="n">hvac_class</span> <span class="o">=</span> <span class="n">HVAC_TYPES_DICT</span><span class="p">[</span><span class="n">hvac</span><span class="p">[</span><span class="s1">&#39;type&#39;</span><span class="p">]</span><span class="o">.</span><span class="n">replace</span><span class="p">(</span><span class="s1">&#39;Abridged&#39;</span><span class="p">,</span> <span class="s1">&#39;&#39;</span><span class="p">)]</span>
+                <span class="n">hvacs</span><span class="p">[</span><span class="n">hvac</span><span class="p">[</span><span class="s1">&#39;name&#39;</span><span class="p">]]</span> <span class="o">=</span> <span class="n">hvac_class</span><span class="o">.</span><span class="n">from_dict_abridged</span><span class="p">(</span><span class="n">hvac</span><span class="p">,</span> <span class="n">schedules</span><span class="p">)</span>
+
+        <span class="k">return</span> <span class="n">materials</span><span class="p">,</span> <span class="n">constructions</span><span class="p">,</span> <span class="n">construction_sets</span><span class="p">,</span> <span class="n">schedule_type_limits</span><span class="p">,</span> \
+            <span class="n">schedules</span><span class="p">,</span> <span class="n">program_types</span><span class="p">,</span> <span class="n">hvacs</span></div>
+
+    <span class="k">def</span> <span class="nf">_add_constr_type_objs_to_dict</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">base</span><span class="p">,</span> <span class="n">include_global_construction_set</span><span class="o">=</span><span class="kc">True</span><span class="p">):</span>
+        <span class="sd">&quot;&quot;&quot;Add materials, constructions and construction sets to a base dictionary.</span>
+
+<span class="sd">        Args:</span>
+<span class="sd">            base: A base dictionary for a Honeybee Model.</span>
+<span class="sd">            include_global_construction_set: Boolean to note whether the</span>
+<span class="sd">                global_construction_set should be included within the dictionary.</span>
+<span class="sd">                This will ensure that all objects lacking a construction</span>
+<span class="sd">                specification always have a default construction. Default: True.</span>
+
+<span class="sd">        Returns:</span>
+<span class="sd">            A list of of schedules that are assigned to the constructions.</span>
+<span class="sd">        &quot;&quot;&quot;</span>
+        <span class="c1"># add all ConstructionSets to the dictionary</span>
+        <span class="n">base</span><span class="p">[</span><span class="s1">&#39;energy&#39;</span><span class="p">][</span><span class="s1">&#39;construction_sets&#39;</span><span class="p">]</span> <span class="o">=</span> <span class="p">[]</span>
+        <span class="k">if</span> <span class="n">include_global_construction_set</span><span class="p">:</span>
+            <span class="n">base</span><span class="p">[</span><span class="s1">&#39;energy&#39;</span><span class="p">][</span><span class="s1">&#39;global_construction_set&#39;</span><span class="p">]</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">global_construction_set</span><span class="o">.</span><span class="n">name</span>
+            <span class="n">base</span><span class="p">[</span><span class="s1">&#39;energy&#39;</span><span class="p">][</span><span class="s1">&#39;construction_sets&#39;</span><span class="p">]</span><span class="o">.</span><span class="n">append</span><span class="p">(</span>
+                <span class="bp">self</span><span class="o">.</span><span class="n">global_construction_set</span><span class="o">.</span><span class="n">to_dict</span><span class="p">(</span><span class="n">abridged</span><span class="o">=</span><span class="kc">True</span><span class="p">,</span>
+                                                     <span class="n">none_for_defaults</span><span class="o">=</span><span class="kc">False</span><span class="p">))</span>
+        <span class="n">construction_sets</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">construction_sets</span>
+        <span class="k">for</span> <span class="n">cnstr_set</span> <span class="ow">in</span> <span class="n">construction_sets</span><span class="p">:</span>
+            <span class="n">base</span><span class="p">[</span><span class="s1">&#39;energy&#39;</span><span class="p">][</span><span class="s1">&#39;construction_sets&#39;</span><span class="p">]</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">cnstr_set</span><span class="o">.</span><span class="n">to_dict</span><span class="p">(</span><span class="n">abridged</span><span class="o">=</span><span class="kc">True</span><span class="p">))</span>
+
+        <span class="c1"># add all unique Constructions to the dictionary</span>
+        <span class="n">room_constrs</span> <span class="o">=</span> <span class="p">[]</span>
+        <span class="k">for</span> <span class="n">cnstr_set</span> <span class="ow">in</span> <span class="n">construction_sets</span><span class="p">:</span>
+            <span class="n">room_constrs</span><span class="o">.</span><span class="n">extend</span><span class="p">(</span><span class="n">cnstr_set</span><span class="o">.</span><span class="n">modified_constructions_unique</span><span class="p">)</span>
+        <span class="n">all_constrs</span> <span class="o">=</span> <span class="n">room_constrs</span> <span class="o">+</span> <span class="bp">self</span><span class="o">.</span><span class="n">face_constructions</span> <span class="o">+</span> <span class="bp">self</span><span class="o">.</span><span class="n">shade_constructions</span>
+        <span class="k">if</span> <span class="n">include_global_construction_set</span><span class="p">:</span>
+            <span class="n">all_constrs</span><span class="o">.</span><span class="n">extend</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">global_construction_set</span><span class="o">.</span><span class="n">constructions_unique</span><span class="p">)</span>
+        <span class="n">constructions</span> <span class="o">=</span> <span class="nb">list</span><span class="p">(</span><span class="nb">set</span><span class="p">(</span><span class="n">all_constrs</span><span class="p">))</span>
+        <span class="n">base</span><span class="p">[</span><span class="s1">&#39;energy&#39;</span><span class="p">][</span><span class="s1">&#39;constructions&#39;</span><span class="p">]</span> <span class="o">=</span> <span class="p">[]</span>
+        <span class="k">for</span> <span class="n">cnst</span> <span class="ow">in</span> <span class="n">constructions</span><span class="p">:</span>
+            <span class="k">try</span><span class="p">:</span>
+                <span class="n">base</span><span class="p">[</span><span class="s1">&#39;energy&#39;</span><span class="p">][</span><span class="s1">&#39;constructions&#39;</span><span class="p">]</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">cnst</span><span class="o">.</span><span class="n">to_dict</span><span class="p">(</span><span class="n">abridged</span><span class="o">=</span><span class="kc">True</span><span class="p">))</span>
+            <span class="k">except</span> <span class="ne">TypeError</span><span class="p">:</span>  <span class="c1"># ShadeConstruction</span>
+                <span class="n">base</span><span class="p">[</span><span class="s1">&#39;energy&#39;</span><span class="p">][</span><span class="s1">&#39;constructions&#39;</span><span class="p">]</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">cnst</span><span class="o">.</span><span class="n">to_dict</span><span class="p">())</span>
+
+        <span class="c1"># add all unique Materials to the dictionary</span>
+        <span class="n">materials</span> <span class="o">=</span> <span class="p">[]</span>
+        <span class="k">for</span> <span class="n">cnstr</span> <span class="ow">in</span> <span class="n">constructions</span><span class="p">:</span>
+            <span class="k">try</span><span class="p">:</span>
+                <span class="n">materials</span><span class="o">.</span><span class="n">extend</span><span class="p">(</span><span class="n">cnstr</span><span class="o">.</span><span class="n">materials</span><span class="p">)</span>
+            <span class="k">except</span> <span class="ne">AttributeError</span><span class="p">:</span>
+                <span class="k">pass</span>  <span class="c1"># ShadeConstruction</span>
+        <span class="n">base</span><span class="p">[</span><span class="s1">&#39;energy&#39;</span><span class="p">][</span><span class="s1">&#39;materials&#39;</span><span class="p">]</span> <span class="o">=</span> <span class="p">[</span><span class="n">mat</span><span class="o">.</span><span class="n">to_dict</span><span class="p">()</span> <span class="k">for</span> <span class="n">mat</span> <span class="ow">in</span> <span class="nb">set</span><span class="p">(</span><span class="n">materials</span><span class="p">)]</span>
+
+        <span class="c1"># extract all of the schedules from the constructions</span>
+        <span class="n">schedules</span> <span class="o">=</span> <span class="p">[]</span>
+        <span class="k">for</span> <span class="n">constr</span> <span class="ow">in</span> <span class="n">constructions</span><span class="p">:</span>
+            <span class="k">if</span> <span class="nb">isinstance</span><span class="p">(</span><span class="n">constr</span><span class="p">,</span> <span class="n">AirBoundaryConstruction</span><span class="p">):</span>
+                <span class="bp">self</span><span class="o">.</span><span class="n">_check_and_add_schedule</span><span class="p">(</span><span class="n">constr</span><span class="o">.</span><span class="n">air_mixing_schedule</span><span class="p">,</span> <span class="n">schedules</span><span class="p">)</span>
+        <span class="k">return</span> <span class="n">schedules</span>
+
+    <span class="k">def</span> <span class="nf">_add_sched_type_objs_to_dict</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">base</span><span class="p">,</span> <span class="n">schs</span><span class="p">):</span>
+        <span class="sd">&quot;&quot;&quot;Add type limits, schedules, program types, and hvacs to a base dictionary.</span>
+
+<span class="sd">        Args:</span>
+<span class="sd">            base: A base dictionary for a Honeybee Model.</span>
+<span class="sd">            schs: A list of additional schedules to be serialized to the</span>
+<span class="sd">                base dictionary.</span>
+<span class="sd">        &quot;&quot;&quot;</span>
+        <span class="c1"># add all unique hvacs to the dictionary</span>
+        <span class="n">hvacs</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">hvacs</span>
+        <span class="n">base</span><span class="p">[</span><span class="s1">&#39;energy&#39;</span><span class="p">][</span><span class="s1">&#39;hvacs&#39;</span><span class="p">]</span> <span class="o">=</span> <span class="p">[]</span>
+        <span class="k">for</span> <span class="n">hvac</span> <span class="ow">in</span> <span class="n">hvacs</span><span class="p">:</span>
+            <span class="n">base</span><span class="p">[</span><span class="s1">&#39;energy&#39;</span><span class="p">][</span><span class="s1">&#39;hvacs&#39;</span><span class="p">]</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">hvac</span><span class="o">.</span><span class="n">to_dict</span><span class="p">(</span><span class="n">abridged</span><span class="o">=</span><span class="kc">True</span><span class="p">))</span>
+
+        <span class="c1"># add all unique program types to the dictionary</span>
+        <span class="n">program_types</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">program_types</span>
+        <span class="n">base</span><span class="p">[</span><span class="s1">&#39;energy&#39;</span><span class="p">][</span><span class="s1">&#39;program_types&#39;</span><span class="p">]</span> <span class="o">=</span> <span class="p">[]</span>
+        <span class="k">for</span> <span class="n">p_type</span> <span class="ow">in</span> <span class="n">program_types</span><span class="p">:</span>
+            <span class="n">base</span><span class="p">[</span><span class="s1">&#39;energy&#39;</span><span class="p">][</span><span class="s1">&#39;program_types&#39;</span><span class="p">]</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">p_type</span><span class="o">.</span><span class="n">to_dict</span><span class="p">(</span><span class="n">abridged</span><span class="o">=</span><span class="kc">True</span><span class="p">))</span>
+
+        <span class="c1"># add all unique Schedules to the dictionary</span>
+        <span class="n">p_type_scheds</span> <span class="o">=</span> <span class="p">[]</span>
+        <span class="k">for</span> <span class="n">p_type</span> <span class="ow">in</span> <span class="n">program_types</span><span class="p">:</span>
+            <span class="k">for</span> <span class="n">sched</span> <span class="ow">in</span> <span class="n">p_type</span><span class="o">.</span><span class="n">schedules</span><span class="p">:</span>
+                <span class="bp">self</span><span class="o">.</span><span class="n">_check_and_add_schedule</span><span class="p">(</span><span class="n">sched</span><span class="p">,</span> <span class="n">p_type_scheds</span><span class="p">)</span>
+        <span class="n">hvac_scheds</span> <span class="o">=</span> <span class="p">[]</span>
+        <span class="k">for</span> <span class="n">hvac</span> <span class="ow">in</span> <span class="n">hvacs</span><span class="p">:</span>
+            <span class="k">for</span> <span class="n">sched</span> <span class="ow">in</span> <span class="n">hvac</span><span class="o">.</span><span class="n">schedules</span><span class="p">:</span>
+                <span class="bp">self</span><span class="o">.</span><span class="n">_check_and_add_schedule</span><span class="p">(</span><span class="n">sched</span><span class="p">,</span> <span class="n">hvac_scheds</span><span class="p">)</span>
+        <span class="n">all_scheds</span> <span class="o">=</span> <span class="n">hvac_scheds</span> <span class="o">+</span> <span class="n">p_type_scheds</span> <span class="o">+</span> \
+            <span class="bp">self</span><span class="o">.</span><span class="n">room_schedules</span> <span class="o">+</span> <span class="bp">self</span><span class="o">.</span><span class="n">shade_schedules</span> <span class="o">+</span> <span class="n">schs</span>
+        <span class="n">schedules</span> <span class="o">=</span> <span class="nb">list</span><span class="p">(</span><span class="nb">set</span><span class="p">(</span><span class="n">all_scheds</span><span class="p">))</span>
+        <span class="n">base</span><span class="p">[</span><span class="s1">&#39;energy&#39;</span><span class="p">][</span><span class="s1">&#39;schedules&#39;</span><span class="p">]</span> <span class="o">=</span> <span class="p">[]</span>
+        <span class="k">for</span> <span class="n">sched</span> <span class="ow">in</span> <span class="n">schedules</span><span class="p">:</span>
+            <span class="n">base</span><span class="p">[</span><span class="s1">&#39;energy&#39;</span><span class="p">][</span><span class="s1">&#39;schedules&#39;</span><span class="p">]</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">sched</span><span class="o">.</span><span class="n">to_dict</span><span class="p">(</span><span class="n">abridged</span><span class="o">=</span><span class="kc">True</span><span class="p">))</span>
+
+        <span class="c1"># add all unique ScheduleTypeLimits to the dictionary</span>
+        <span class="n">type_limits</span> <span class="o">=</span> <span class="p">[]</span>
+        <span class="k">for</span> <span class="n">sched</span> <span class="ow">in</span> <span class="n">schedules</span><span class="p">:</span>
+            <span class="n">t_lim</span> <span class="o">=</span> <span class="n">sched</span><span class="o">.</span><span class="n">schedule_type_limit</span>
+            <span class="k">if</span> <span class="n">t_lim</span> <span class="ow">is</span> <span class="ow">not</span> <span class="kc">None</span> <span class="ow">and</span> <span class="ow">not</span> <span class="bp">self</span><span class="o">.</span><span class="n">_instance_in_array</span><span class="p">(</span><span class="n">t_lim</span><span class="p">,</span> <span class="n">type_limits</span><span class="p">):</span>
+                <span class="n">type_limits</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">t_lim</span><span class="p">)</span>
+        <span class="n">base</span><span class="p">[</span><span class="s1">&#39;energy&#39;</span><span class="p">][</span><span class="s1">&#39;schedule_type_limits&#39;</span><span class="p">]</span> <span class="o">=</span> \
+            <span class="p">[</span><span class="n">s_typ</span><span class="o">.</span><span class="n">to_dict</span><span class="p">()</span> <span class="k">for</span> <span class="n">s_typ</span> <span class="ow">in</span> <span class="nb">set</span><span class="p">(</span><span class="n">type_limits</span><span class="p">)]</span>
+
+    <span class="k">def</span> <span class="nf">_check_and_add_obj_construction</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">obj</span><span class="p">,</span> <span class="n">constructions</span><span class="p">):</span>
+        <span class="sd">&quot;&quot;&quot;Check if a construction is assigned to an object and add it to a list.&quot;&quot;&quot;</span>
+        <span class="n">constr</span> <span class="o">=</span> <span class="n">obj</span><span class="o">.</span><span class="n">properties</span><span class="o">.</span><span class="n">energy</span><span class="o">.</span><span class="n">_construction</span>
+        <span class="k">if</span> <span class="n">constr</span> <span class="ow">is</span> <span class="ow">not</span> <span class="kc">None</span><span class="p">:</span>
+            <span class="k">if</span> <span class="ow">not</span> <span class="bp">self</span><span class="o">.</span><span class="n">_instance_in_array</span><span class="p">(</span><span class="n">constr</span><span class="p">,</span> <span class="n">constructions</span><span class="p">):</span>
+                <span class="n">constructions</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">constr</span><span class="p">)</span>
+
+    <span class="k">def</span> <span class="nf">_check_and_add_shade_schedule</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">obj</span><span class="p">,</span> <span class="n">schedules</span><span class="p">):</span>
+        <span class="sd">&quot;&quot;&quot;Check if a schedule is assigned to a shade and add it to a list.&quot;&quot;&quot;</span>
+        <span class="n">sched</span> <span class="o">=</span> <span class="n">obj</span><span class="o">.</span><span class="n">properties</span><span class="o">.</span><span class="n">energy</span><span class="o">.</span><span class="n">_transmittance_schedule</span>
+        <span class="k">if</span> <span class="n">sched</span> <span class="ow">is</span> <span class="ow">not</span> <span class="kc">None</span><span class="p">:</span>
+            <span class="k">if</span> <span class="ow">not</span> <span class="bp">self</span><span class="o">.</span><span class="n">_instance_in_array</span><span class="p">(</span><span class="n">sched</span><span class="p">,</span> <span class="n">schedules</span><span class="p">):</span>
+                <span class="n">schedules</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">sched</span><span class="p">)</span>
+
+    <span class="k">def</span> <span class="nf">_check_and_add_schedule</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">sched</span><span class="p">,</span> <span class="n">schedules</span><span class="p">):</span>
+        <span class="sd">&quot;&quot;&quot;Check if a schedule is in a list and add it if not.&quot;&quot;&quot;</span>
+        <span class="k">if</span> <span class="ow">not</span> <span class="bp">self</span><span class="o">.</span><span class="n">_instance_in_array</span><span class="p">(</span><span class="n">sched</span><span class="p">,</span> <span class="n">schedules</span><span class="p">):</span>
+            <span class="n">schedules</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">sched</span><span class="p">)</span>
+
+    <span class="nd">@staticmethod</span>
+    <span class="k">def</span> <span class="nf">_instance_in_array</span><span class="p">(</span><span class="n">object_instance</span><span class="p">,</span> <span class="n">object_array</span><span class="p">):</span>
+        <span class="sd">&quot;&quot;&quot;Check if a specific object instance is already in an array.</span>
+
+<span class="sd">        This can be much faster than  `if object_instance in object_arrary`</span>
+<span class="sd">        when you expect to be testing a lot of the same instance of an object for</span>
+<span class="sd">        inclusion in an array since the builtin method uses an == operator to</span>
+<span class="sd">        test inclusion.</span>
+<span class="sd">        &quot;&quot;&quot;</span>
+        <span class="k">for</span> <span class="n">val</span> <span class="ow">in</span> <span class="n">object_array</span><span class="p">:</span>
+            <span class="k">if</span> <span class="n">val</span> <span class="ow">is</span> <span class="n">object_instance</span><span class="p">:</span>
+                <span class="k">return</span> <span class="kc">True</span>
+        <span class="k">return</span> <span class="kc">False</span>
+
+<div class="viewcode-block" id="ModelEnergyProperties.ToString"><a class="viewcode-back" href="../../../honeybee_energy.properties.model.html#honeybee_energy.properties.model.ModelEnergyProperties.ToString">[docs]</a>    <span class="k">def</span> <span class="nf">ToString</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+        <span class="k">return</span> <span class="bp">self</span><span class="o">.</span><span class="fm">__repr__</span><span class="p">()</span></div>
+
+    <span class="k">def</span> <span class="fm">__repr__</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+        <span class="k">return</span> <span class="s1">&#39;Model Energy Properties:</span><span class="se">\n</span><span class="s1"> host: </span><span class="si">{}</span><span class="s1">&#39;</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">host</span><span class="o">.</span><span class="n">name</span><span class="p">)</span></div>
+</pre></div>
+
+    </div>
+      
+  </div>
+</div>
+<footer class="footer">
+  <div class="container">
+    <p class="pull-right">
+      <a href="#">Back to top</a>
+      
+    </p>
+    <p>
+        &copy; Copyright 2019, Ladybug Tools.<br/>
+      Created using <a href="http://sphinx-doc.org/">Sphinx</a> 1.8.5.<br/>
+    </p>
+  </div>
+</footer>
+  </body>
+</html>

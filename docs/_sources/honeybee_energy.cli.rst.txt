@@ -1,0 +1,18 @@
+honeybee\_energy.cli package
+============================
+
+Submodules
+----------
+
+.. toctree::
+
+   honeybee_energy.cli.simulate
+   honeybee_energy.cli.translate
+
+Module contents
+---------------
+
+.. automodule:: honeybee_energy.cli
+    :members:
+    :undoc-members:
+    :show-inheritance:

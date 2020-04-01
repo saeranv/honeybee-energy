@@ -1,0 +1,20 @@
+honeybee\_energy.result package
+===============================
+
+Submodules
+----------
+
+.. toctree::
+
+   honeybee_energy.result.colorobj
+   honeybee_energy.result.err
+   honeybee_energy.result.rdd
+   honeybee_energy.result.sql
+
+Module contents
+---------------
+
+.. automodule:: honeybee_energy.result
+    :members:
+    :undoc-members:
+    :show-inheritance:

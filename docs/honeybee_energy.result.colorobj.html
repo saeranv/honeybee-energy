@@ -1,0 +1,752 @@
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge" />
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>honeybee_energy.result.colorobj module &#8212; honeybee energy  documentation</title>
+    <link rel="stylesheet" href="_static/bootstrap-sphinx.css" type="text/css" />
+    <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+    <link rel="stylesheet" type="text/css" href="_static/custom.css" />
+    <script type="text/javascript" id="documentation_options" data-url_root="./" src="_static/documentation_options.js"></script>
+    <script type="text/javascript" src="_static/jquery.js"></script>
+    <script type="text/javascript" src="_static/underscore.js"></script>
+    <script type="text/javascript" src="_static/doctools.js"></script>
+    <script type="text/javascript" src="_static/language_data.js"></script>
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="next" title="honeybee_energy.result.err module" href="honeybee_energy.result.err.html" />
+    <link rel="prev" title="honeybee_energy.result package" href="honeybee_energy.result.html" />
+<meta charset='utf-8'>
+<meta http-equiv='X-UA-Compatible' content='IE=edge,chrome=1'>
+<meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1'>
+<meta name="apple-mobile-web-app-capable" content="yes">
+<script type="text/javascript" src="_static/js/jquery-1.11.0.min.js "></script>
+<script type="text/javascript" src="_static/js/jquery-fix.js "></script>
+<script type="text/javascript" src="_static/bootstrap-3.3.7/js/bootstrap.min.js "></script>
+<script type="text/javascript" src="_static/bootstrap-sphinx.js "></script>
+
+  </head><body>
+
+  <div id="navbar" class="navbar navbar-inverse navbar-default navbar-fixed-top">
+    <div class="container">
+      <div class="navbar-header">
+        <!-- .btn-navbar is used as the toggle for collapsed navbar content -->
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".nav-collapse">
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="index.html">
+          honeybee energy</a>
+        <span class="navbar-text navbar-version pull-left"><b></b></span>
+      </div>
+
+        <div class="collapse navbar-collapse nav-collapse">
+          <ul class="nav navbar-nav">
+            
+            
+              <li class="dropdown globaltoc-container">
+  <a role="button"
+     id="dLabelGlobalToc"
+     data-toggle="dropdown"
+     data-target="#"
+     href="index.html">Site <b class="caret"></b></a>
+  <ul class="dropdown-menu globaltoc"
+      role="menu"
+      aria-labelledby="dLabelGlobalToc"><ul class="current">
+<li class="toctree-l1 current"><a class="reference internal" href="honeybee_energy.html">honeybee_energy package</a><ul class="current">
+<li class="toctree-l2 current"><a class="reference internal" href="honeybee_energy.html#subpackages">Subpackages</a><ul class="current">
+<li class="toctree-l3"><a class="reference internal" href="honeybee_energy.cli.html">honeybee_energy.cli package</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="honeybee_energy.cli.html#submodules">Submodules</a><ul>
+<li class="toctree-l5"><a class="reference internal" href="honeybee_energy.cli.simulate.html">honeybee_energy.cli.simulate module</a></li>
+<li class="toctree-l5"><a class="reference internal" href="honeybee_energy.cli.translate.html">honeybee_energy.cli.translate module</a></li>
+</ul>
+</li>
+<li class="toctree-l4"><a class="reference internal" href="honeybee_energy.cli.html#module-honeybee_energy.cli">Module contents</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="honeybee_energy.construction.html">honeybee_energy.construction package</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="honeybee_energy.construction.html#submodules">Submodules</a><ul>
+<li class="toctree-l5"><a class="reference internal" href="honeybee_energy.construction.air.html">honeybee_energy.construction.air module</a></li>
+<li class="toctree-l5"><a class="reference internal" href="honeybee_energy.construction.dictutil.html">honeybee_energy.construction.dictutil module</a></li>
+<li class="toctree-l5"><a class="reference internal" href="honeybee_energy.construction.opaque.html">honeybee_energy.construction.opaque module</a></li>
+<li class="toctree-l5"><a class="reference internal" href="honeybee_energy.construction.shade.html">honeybee_energy.construction.shade module</a></li>
+<li class="toctree-l5"><a class="reference internal" href="honeybee_energy.construction.window.html">honeybee_energy.construction.window module</a></li>
+</ul>
+</li>
+<li class="toctree-l4"><a class="reference internal" href="honeybee_energy.construction.html#module-honeybee_energy.construction">Module contents</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="honeybee_energy.hvac.html">honeybee_energy.hvac package</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="honeybee_energy.hvac.html#submodules">Submodules</a><ul>
+<li class="toctree-l5"><a class="reference internal" href="honeybee_energy.hvac.idealair.html">honeybee_energy.hvac.idealair module</a></li>
+</ul>
+</li>
+<li class="toctree-l4"><a class="reference internal" href="honeybee_energy.hvac.html#module-honeybee_energy.hvac">Module contents</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="honeybee_energy.lib.html">honeybee_energy.lib package</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="honeybee_energy.lib.html#subpackages">Subpackages</a><ul>
+<li class="toctree-l5"><a class="reference internal" href="honeybee_energy.lib.data.html">honeybee_energy.lib.data package</a><ul>
+<li class="toctree-l6"><a class="reference internal" href="honeybee_energy.lib.data.html#module-honeybee_energy.lib.data">Module contents</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l4"><a class="reference internal" href="honeybee_energy.lib.html#submodules">Submodules</a><ul>
+<li class="toctree-l5"><a class="reference internal" href="honeybee_energy.lib.constructions.html">honeybee_energy.lib.constructions module</a></li>
+<li class="toctree-l5"><a class="reference internal" href="honeybee_energy.lib.constructionsets.html">honeybee_energy.lib.constructionsets module</a></li>
+<li class="toctree-l5"><a class="reference internal" href="honeybee_energy.lib.materials.html">honeybee_energy.lib.materials module</a></li>
+<li class="toctree-l5"><a class="reference internal" href="honeybee_energy.lib.programtypes.html">honeybee_energy.lib.programtypes module</a></li>
+<li class="toctree-l5"><a class="reference internal" href="honeybee_energy.lib.schedules.html">honeybee_energy.lib.schedules module</a></li>
+<li class="toctree-l5"><a class="reference internal" href="honeybee_energy.lib.scheduletypelimits.html">honeybee_energy.lib.scheduletypelimits module</a></li>
+</ul>
+</li>
+<li class="toctree-l4"><a class="reference internal" href="honeybee_energy.lib.html#module-honeybee_energy.lib">Module contents</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="honeybee_energy.load.html">honeybee_energy.load package</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="honeybee_energy.load.html#submodules">Submodules</a><ul>
+<li class="toctree-l5"><a class="reference internal" href="honeybee_energy.load.dictutil.html">honeybee_energy.load.dictutil module</a></li>
+<li class="toctree-l5"><a class="reference internal" href="honeybee_energy.load.equipment.html">honeybee_energy.load.equipment module</a></li>
+<li class="toctree-l5"><a class="reference internal" href="honeybee_energy.load.infiltration.html">honeybee_energy.load.infiltration module</a></li>
+<li class="toctree-l5"><a class="reference internal" href="honeybee_energy.load.lighting.html">honeybee_energy.load.lighting module</a></li>
+<li class="toctree-l5"><a class="reference internal" href="honeybee_energy.load.people.html">honeybee_energy.load.people module</a></li>
+<li class="toctree-l5"><a class="reference internal" href="honeybee_energy.load.setpoint.html">honeybee_energy.load.setpoint module</a></li>
+<li class="toctree-l5"><a class="reference internal" href="honeybee_energy.load.ventilation.html">honeybee_energy.load.ventilation module</a></li>
+</ul>
+</li>
+<li class="toctree-l4"><a class="reference internal" href="honeybee_energy.load.html#module-honeybee_energy.load">Module contents</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="honeybee_energy.material.html">honeybee_energy.material package</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="honeybee_energy.material.html#submodules">Submodules</a><ul>
+<li class="toctree-l5"><a class="reference internal" href="honeybee_energy.material.dictutil.html">honeybee_energy.material.dictutil module</a></li>
+<li class="toctree-l5"><a class="reference internal" href="honeybee_energy.material.gas.html">honeybee_energy.material.gas module</a></li>
+<li class="toctree-l5"><a class="reference internal" href="honeybee_energy.material.glazing.html">honeybee_energy.material.glazing module</a></li>
+<li class="toctree-l5"><a class="reference internal" href="honeybee_energy.material.opaque.html">honeybee_energy.material.opaque module</a></li>
+<li class="toctree-l5"><a class="reference internal" href="honeybee_energy.material.shade.html">honeybee_energy.material.shade module</a></li>
+</ul>
+</li>
+<li class="toctree-l4"><a class="reference internal" href="honeybee_energy.material.html#module-honeybee_energy.material">Module contents</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="honeybee_energy.properties.html">honeybee_energy.properties package</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="honeybee_energy.properties.html#submodules">Submodules</a><ul>
+<li class="toctree-l5"><a class="reference internal" href="honeybee_energy.properties.aperture.html">honeybee_energy.properties.aperture module</a></li>
+<li class="toctree-l5"><a class="reference internal" href="honeybee_energy.properties.door.html">honeybee_energy.properties.door module</a></li>
+<li class="toctree-l5"><a class="reference internal" href="honeybee_energy.properties.face.html">honeybee_energy.properties.face module</a></li>
+<li class="toctree-l5"><a class="reference internal" href="honeybee_energy.properties.model.html">honeybee_energy.properties.model module</a></li>
+<li class="toctree-l5"><a class="reference internal" href="honeybee_energy.properties.room.html">honeybee_energy.properties.room module</a></li>
+<li class="toctree-l5"><a class="reference internal" href="honeybee_energy.properties.shade.html">honeybee_energy.properties.shade module</a></li>
+</ul>
+</li>
+<li class="toctree-l4"><a class="reference internal" href="honeybee_energy.properties.html#module-honeybee_energy.properties">Module contents</a></li>
+</ul>
+</li>
+<li class="toctree-l3 current"><a class="reference internal" href="honeybee_energy.result.html">honeybee_energy.result package</a><ul class="current">
+<li class="toctree-l4 current"><a class="reference internal" href="honeybee_energy.result.html#submodules">Submodules</a><ul class="current">
+<li class="toctree-l5 current"><a class="current reference internal" href="#">honeybee_energy.result.colorobj module</a></li>
+<li class="toctree-l5"><a class="reference internal" href="honeybee_energy.result.err.html">honeybee_energy.result.err module</a></li>
+<li class="toctree-l5"><a class="reference internal" href="honeybee_energy.result.rdd.html">honeybee_energy.result.rdd module</a></li>
+<li class="toctree-l5"><a class="reference internal" href="honeybee_energy.result.sql.html">honeybee_energy.result.sql module</a></li>
+</ul>
+</li>
+<li class="toctree-l4"><a class="reference internal" href="honeybee_energy.result.html#module-honeybee_energy.result">Module contents</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="honeybee_energy.schedule.html">honeybee_energy.schedule package</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="honeybee_energy.schedule.html#submodules">Submodules</a><ul>
+<li class="toctree-l5"><a class="reference internal" href="honeybee_energy.schedule.day.html">honeybee_energy.schedule.day module</a></li>
+<li class="toctree-l5"><a class="reference internal" href="honeybee_energy.schedule.dictutil.html">honeybee_energy.schedule.dictutil module</a></li>
+<li class="toctree-l5"><a class="reference internal" href="honeybee_energy.schedule.fixedinterval.html">honeybee_energy.schedule.fixedinterval module</a></li>
+<li class="toctree-l5"><a class="reference internal" href="honeybee_energy.schedule.rule.html">honeybee_energy.schedule.rule module</a></li>
+<li class="toctree-l5"><a class="reference internal" href="honeybee_energy.schedule.ruleset.html">honeybee_energy.schedule.ruleset module</a></li>
+<li class="toctree-l5"><a class="reference internal" href="honeybee_energy.schedule.typelimit.html">honeybee_energy.schedule.typelimit module</a></li>
+</ul>
+</li>
+<li class="toctree-l4"><a class="reference internal" href="honeybee_energy.schedule.html#module-honeybee_energy.schedule">Module contents</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="honeybee_energy.simulation.html">honeybee_energy.simulation package</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="honeybee_energy.simulation.html#submodules">Submodules</a><ul>
+<li class="toctree-l5"><a class="reference internal" href="honeybee_energy.simulation.control.html">honeybee_energy.simulation.control module</a></li>
+<li class="toctree-l5"><a class="reference internal" href="honeybee_energy.simulation.daylightsaving.html">honeybee_energy.simulation.daylightsaving module</a></li>
+<li class="toctree-l5"><a class="reference internal" href="honeybee_energy.simulation.dictutil.html">honeybee_energy.simulation.dictutil module</a></li>
+<li class="toctree-l5"><a class="reference internal" href="honeybee_energy.simulation.output.html">honeybee_energy.simulation.output module</a></li>
+<li class="toctree-l5"><a class="reference internal" href="honeybee_energy.simulation.parameter.html">honeybee_energy.simulation.parameter module</a></li>
+<li class="toctree-l5"><a class="reference internal" href="honeybee_energy.simulation.runperiod.html">honeybee_energy.simulation.runperiod module</a></li>
+<li class="toctree-l5"><a class="reference internal" href="honeybee_energy.simulation.shadowcalculation.html">honeybee_energy.simulation.shadowcalculation module</a></li>
+<li class="toctree-l5"><a class="reference internal" href="honeybee_energy.simulation.sizing.html">honeybee_energy.simulation.sizing module</a></li>
+</ul>
+</li>
+<li class="toctree-l4"><a class="reference internal" href="honeybee_energy.simulation.html#module-honeybee_energy.simulation">Module contents</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="honeybee_energy.html#submodules">Submodules</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="honeybee_energy.altnumber.html">honeybee_energy.altnumber module</a></li>
+<li class="toctree-l3"><a class="reference internal" href="honeybee_energy.boundarycondition.html">honeybee_energy.boundarycondition module</a></li>
+<li class="toctree-l3"><a class="reference internal" href="honeybee_energy.config.html">honeybee_energy.config module</a></li>
+<li class="toctree-l3"><a class="reference internal" href="honeybee_energy.constructionset.html">honeybee_energy.constructionset module</a></li>
+<li class="toctree-l3"><a class="reference internal" href="honeybee_energy.dictutil.html">honeybee_energy.dictutil module</a></li>
+<li class="toctree-l3"><a class="reference internal" href="honeybee_energy.programtype.html">honeybee_energy.programtype module</a></li>
+<li class="toctree-l3"><a class="reference internal" href="honeybee_energy.reader.html">honeybee_energy.reader module</a></li>
+<li class="toctree-l3"><a class="reference internal" href="honeybee_energy.run.html">honeybee_energy.run module</a></li>
+<li class="toctree-l3"><a class="reference internal" href="honeybee_energy.writer.html">honeybee_energy.writer module</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="honeybee_energy.html#module-honeybee_energy">Module contents</a></li>
+</ul>
+</li>
+</ul>
+</ul>
+</li>
+              
+                <li class="dropdown">
+  <a role="button"
+     id="dLabelLocalToc"
+     data-toggle="dropdown"
+     data-target="#"
+     href="#">Page <b class="caret"></b></a>
+  <ul class="dropdown-menu localtoc"
+      role="menu"
+      aria-labelledby="dLabelLocalToc"><ul class="current">
+<li class="toctree-l1 current"><a class="reference internal" href="honeybee_energy.html">honeybee_energy package</a><ul class="current">
+<li class="toctree-l2 current"><a class="reference internal" href="honeybee_energy.html#subpackages">Subpackages</a><ul class="current">
+<li class="toctree-l3"><a class="reference internal" href="honeybee_energy.cli.html">honeybee_energy.cli package</a></li>
+<li class="toctree-l3"><a class="reference internal" href="honeybee_energy.construction.html">honeybee_energy.construction package</a></li>
+<li class="toctree-l3"><a class="reference internal" href="honeybee_energy.hvac.html">honeybee_energy.hvac package</a></li>
+<li class="toctree-l3"><a class="reference internal" href="honeybee_energy.lib.html">honeybee_energy.lib package</a></li>
+<li class="toctree-l3"><a class="reference internal" href="honeybee_energy.load.html">honeybee_energy.load package</a></li>
+<li class="toctree-l3"><a class="reference internal" href="honeybee_energy.material.html">honeybee_energy.material package</a></li>
+<li class="toctree-l3"><a class="reference internal" href="honeybee_energy.properties.html">honeybee_energy.properties package</a></li>
+<li class="toctree-l3 current"><a class="reference internal" href="honeybee_energy.result.html">honeybee_energy.result package</a><ul class="current">
+<li class="toctree-l4 current"><a class="reference internal" href="honeybee_energy.result.html#submodules">Submodules</a><ul class="current">
+<li class="toctree-l5 current"><a class="current reference internal" href="#">honeybee_energy.result.colorobj module</a></li>
+<li class="toctree-l5"><a class="reference internal" href="honeybee_energy.result.err.html">honeybee_energy.result.err module</a></li>
+<li class="toctree-l5"><a class="reference internal" href="honeybee_energy.result.rdd.html">honeybee_energy.result.rdd module</a></li>
+<li class="toctree-l5"><a class="reference internal" href="honeybee_energy.result.sql.html">honeybee_energy.result.sql module</a></li>
+</ul>
+</li>
+<li class="toctree-l4"><a class="reference internal" href="honeybee_energy.result.html#module-honeybee_energy.result">Module contents</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="honeybee_energy.schedule.html">honeybee_energy.schedule package</a></li>
+<li class="toctree-l3"><a class="reference internal" href="honeybee_energy.simulation.html">honeybee_energy.simulation package</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="honeybee_energy.html#submodules">Submodules</a></li>
+<li class="toctree-l2"><a class="reference internal" href="honeybee_energy.html#module-honeybee_energy">Module contents</a></li>
+</ul>
+</li>
+</ul>
+</ul>
+</li>
+              
+            
+            
+              
+                
+  <li>
+    <a href="honeybee_energy.result.html" title="Previous Chapter: honeybee_energy.result package"><span class="glyphicon glyphicon-chevron-left visible-sm"></span><span class="hidden-sm hidden-tablet">&laquo; honeybee_ener...</span>
+    </a>
+  </li>
+  <li>
+    <a href="honeybee_energy.result.err.html" title="Next Chapter: honeybee_energy.result.err module"><span class="glyphicon glyphicon-chevron-right visible-sm"></span><span class="hidden-sm hidden-tablet">honeybee_ener... &raquo;</span>
+    </a>
+  </li>
+              
+            
+            
+            
+            
+              <li class="hidden-sm">
+<div id="sourcelink">
+  <a href="_sources/honeybee_energy.result.colorobj.rst.txt"
+     rel="nofollow">Source</a>
+</div></li>
+            
+          </ul>
+
+          
+            
+<form class="navbar-form navbar-right" action="search.html" method="get">
+ <div class="form-group">
+  <input type="text" name="q" class="form-control" placeholder="Search" />
+ </div>
+  <input type="hidden" name="check_keywords" value="yes" />
+  <input type="hidden" name="area" value="default" />
+</form>
+          
+        </div>
+    </div>
+  </div>
+
+<div class="container">
+  <div class="row">
+      <div class="col-md-4">
+        <div id="sidebar" class="bs-sidenav" role="complementary"><ul class="current">
+<li class="toctree-l1 current"><a class="reference internal" href="honeybee_energy.html">honeybee_energy package</a><ul class="current">
+<li class="toctree-l2 current"><a class="reference internal" href="honeybee_energy.html#subpackages">Subpackages</a><ul class="current">
+<li class="toctree-l3"><a class="reference internal" href="honeybee_energy.cli.html">honeybee_energy.cli package</a></li>
+<li class="toctree-l3"><a class="reference internal" href="honeybee_energy.construction.html">honeybee_energy.construction package</a></li>
+<li class="toctree-l3"><a class="reference internal" href="honeybee_energy.hvac.html">honeybee_energy.hvac package</a></li>
+<li class="toctree-l3"><a class="reference internal" href="honeybee_energy.lib.html">honeybee_energy.lib package</a></li>
+<li class="toctree-l3"><a class="reference internal" href="honeybee_energy.load.html">honeybee_energy.load package</a></li>
+<li class="toctree-l3"><a class="reference internal" href="honeybee_energy.material.html">honeybee_energy.material package</a></li>
+<li class="toctree-l3"><a class="reference internal" href="honeybee_energy.properties.html">honeybee_energy.properties package</a></li>
+<li class="toctree-l3 current"><a class="reference internal" href="honeybee_energy.result.html">honeybee_energy.result package</a><ul class="current">
+<li class="toctree-l4 current"><a class="reference internal" href="honeybee_energy.result.html#submodules">Submodules</a><ul class="current">
+<li class="toctree-l5 current"><a class="current reference internal" href="#">honeybee_energy.result.colorobj module</a></li>
+<li class="toctree-l5"><a class="reference internal" href="honeybee_energy.result.err.html">honeybee_energy.result.err module</a></li>
+<li class="toctree-l5"><a class="reference internal" href="honeybee_energy.result.rdd.html">honeybee_energy.result.rdd module</a></li>
+<li class="toctree-l5"><a class="reference internal" href="honeybee_energy.result.sql.html">honeybee_energy.result.sql module</a></li>
+</ul>
+</li>
+<li class="toctree-l4"><a class="reference internal" href="honeybee_energy.result.html#module-honeybee_energy.result">Module contents</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="honeybee_energy.schedule.html">honeybee_energy.schedule package</a></li>
+<li class="toctree-l3"><a class="reference internal" href="honeybee_energy.simulation.html">honeybee_energy.simulation package</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="honeybee_energy.html#submodules">Submodules</a></li>
+<li class="toctree-l2"><a class="reference internal" href="honeybee_energy.html#module-honeybee_energy">Module contents</a></li>
+</ul>
+</li>
+</ul>
+
+        </div>
+      </div>
+    <div class="body col-md-8 content" role="main">
+      
+  <div class="section" id="module-honeybee_energy.result.colorobj">
+<span id="honeybee-energy-result-colorobj-module"></span><h1>honeybee_energy.result.colorobj module<a class="headerlink" href="#module-honeybee_energy.result.colorobj" title="Permalink to this headline">¶</a></h1>
+<p>Module for coloring Model geometry with energy simulation results.</p>
+<dl class="class">
+<dt id="honeybee_energy.result.colorobj.ColorFace">
+<em class="property">class </em><code class="descclassname">honeybee_energy.result.colorobj.</code><code class="descname">ColorFace</code><span class="sig-paren">(</span><em>data_collections</em>, <em>faces</em>, <em>legend_parameters=None</em>, <em>simulation_step=None</em>, <em>normalize=True</em>, <em>geo_unit='m'</em><span class="sig-paren">)</span><a class="reference internal" href="_modules/honeybee_energy/result/colorobj.html#ColorFace"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#honeybee_energy.result.colorobj.ColorFace" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal notranslate"><span class="pre">honeybee_energy.result.colorobj._ColorObject</span></code></p>
+<p>Object for visualization face and sub-face-level simulation results on geometry.</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><ul class="first last simple">
+<li><strong>data_collections</strong> – An array of HourlyContinuousCollections of the same data type,
+which will be used to color Faces with simulation results. Data collections
+can be of any class (eg. MonthlyCollection, DailyCollection) but they
+should all have headers with metadata dictionaries with ‘Surface’
+keys. These keys will be used to match the data in the collections
+to the input faces.</li>
+<li><strong>faces</strong> – An array of honeybee Faces, Apertures, and/or Doors which will be
+matched to the data_collections.</li>
+<li><strong>legend_parameters</strong> – An optional LegendParameter object to change the display
+of the ColorFace (Default: None).</li>
+<li><strong>simulation_step</strong> – An optional integer (greater than or equal to 0) to select
+a specific step of the data collections for which result values will be
+generated. If None, the geometry will be colored with the total of
+resutls in the data_collections if the data type is cumulative or with
+the average of results if the data type is not cumulative. Default: None.</li>
+<li><strong>normalize</strong> – Boolean to note whether results should be normalized by the
+face/sub-face area if the data type of the data_colections supports it.
+If False, values will be generated using sum total of the data collection
+values. Note that this input has no effect if the data type of the
+data_collections is not normalizable since data collection values will
+always be averaged for this case. Default: True.</li>
+<li><strong>geo_unit</strong> – Optional text to note the units that the Face geometry is in.
+This will be used to ensure the legend units display correctly when
+data is floor-normalized. Examples include ‘m’, ‘mm’, ‘ft’.
+(Default: ‘m’ for meters).</li>
+</ul>
+</td>
+</tr>
+</tbody>
+</table>
+<dl class="docutils">
+<dt>Properties:</dt>
+<dd><ul class="first last simple">
+<li>data_collections</li>
+<li>faces</li>
+<li>legend_parameters</li>
+<li>simulation_step</li>
+<li>normalize</li>
+<li>geo_unit</li>
+<li>matched_flat_faces</li>
+<li>matched_values</li>
+<li>matched_flat_geometry</li>
+<li>matched_flat_areas</li>
+<li>graphic_container</li>
+<li>title_text</li>
+<li>data_type_text</li>
+<li>data_type</li>
+<li>unit</li>
+<li>analysis_period</li>
+<li>min_point</li>
+<li>max_point</li>
+</ul>
+</dd>
+</dl>
+<dl class="method">
+<dt id="honeybee_energy.result.colorobj.ColorFace.time_interval_text">
+<code class="descname">time_interval_text</code><span class="sig-paren">(</span><em>simulation_step</em><span class="sig-paren">)</span><a class="headerlink" href="#honeybee_energy.result.colorobj.ColorFace.time_interval_text" title="Permalink to this definition">¶</a></dt>
+<dd><p>Get text for a specific time simulation_step of the data collections.</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>simulation_step</strong> – An integer for the step of simulation for which
+text should be generated.</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="honeybee_energy.result.colorobj.ColorFace.analysis_period">
+<code class="descname">analysis_period</code><a class="headerlink" href="#honeybee_energy.result.colorobj.ColorFace.analysis_period" title="Permalink to this definition">¶</a></dt>
+<dd><p>The analysis_period of this object’s data collections.</p>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="honeybee_energy.result.colorobj.ColorFace.data_collections">
+<code class="descname">data_collections</code><a class="headerlink" href="#honeybee_energy.result.colorobj.ColorFace.data_collections" title="Permalink to this definition">¶</a></dt>
+<dd><p>Get a tuple of data collections assigned to this object.</p>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="honeybee_energy.result.colorobj.ColorFace.data_type">
+<code class="descname">data_type</code><a class="headerlink" href="#honeybee_energy.result.colorobj.ColorFace.data_type" title="Permalink to this definition">¶</a></dt>
+<dd><p>The data type of this object’s data collections.</p>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="honeybee_energy.result.colorobj.ColorFace.data_type_text">
+<code class="descname">data_type_text</code><a class="headerlink" href="#honeybee_energy.result.colorobj.ColorFace.data_type_text" title="Permalink to this definition">¶</a></dt>
+<dd><p>Text for the data type.</p>
+<p>This will be the full name of the EnergyPlus ouput if the DataCollection
+header meatadata contains a ‘type’ key. Otherwise, this will be the name
+of the data_type object.</p>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="honeybee_energy.result.colorobj.ColorFace.faces">
+<code class="descname">faces</code><a class="headerlink" href="#honeybee_energy.result.colorobj.ColorFace.faces" title="Permalink to this definition">¶</a></dt>
+<dd><p>Get the honeybee Faces, Apertures, Doors and Shades assigned to this object.</p>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="honeybee_energy.result.colorobj.ColorFace.geo_unit">
+<code class="descname">geo_unit</code><a class="headerlink" href="#honeybee_energy.result.colorobj.ColorFace.geo_unit" title="Permalink to this definition">¶</a></dt>
+<dd><p>Text to note the units that the object geometry is in.</p>
+<p>This will be used to ensure the legend units display correctly when
+data is floor-normalized. Examples include ‘m’, ‘mm’, ‘ft’.</p>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="honeybee_energy.result.colorobj.ColorFace.graphic_container">
+<code class="descname">graphic_container</code><a class="headerlink" href="#honeybee_energy.result.colorobj.ColorFace.graphic_container" title="Permalink to this definition">¶</a></dt>
+<dd><p>Get a ladybug GraphicContainer that relates to this object.</p>
+<p>The GraphicContainer possesses almost all things needed to visualize the
+ColorFace object including the legend, value_colors, lower_title_location,
+upper_title_location, etc.</p>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="honeybee_energy.result.colorobj.ColorFace.legend_parameters">
+<code class="descname">legend_parameters</code><a class="headerlink" href="#honeybee_energy.result.colorobj.ColorFace.legend_parameters" title="Permalink to this definition">¶</a></dt>
+<dd><p>Get or set the legend parameters.</p>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="honeybee_energy.result.colorobj.ColorFace.matched_flat_areas">
+<code class="descname">matched_flat_areas</code><a class="headerlink" href="#honeybee_energy.result.colorobj.ColorFace.matched_flat_areas" title="Permalink to this definition">¶</a></dt>
+<dd><p>Get a list numbers for the area of each of the matched_flat_faces.</p>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="honeybee_energy.result.colorobj.ColorFace.matched_flat_faces">
+<code class="descname">matched_flat_faces</code><a class="headerlink" href="#honeybee_energy.result.colorobj.ColorFace.matched_flat_faces" title="Permalink to this definition">¶</a></dt>
+<dd><p>Get a tuple of honeybee objects that have been matched to the data.</p>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="honeybee_energy.result.colorobj.ColorFace.matched_flat_geometry">
+<code class="descname">matched_flat_geometry</code><a class="headerlink" href="#honeybee_energy.result.colorobj.ColorFace.matched_flat_geometry" title="Permalink to this definition">¶</a></dt>
+<dd><p>Get non-nested array of faces/sub-faces on this object.</p>
+<p>The geometries here align with the attributes and graphic_container colors.</p>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="honeybee_energy.result.colorobj.ColorFace.matched_values">
+<code class="descname">matched_values</code><a class="headerlink" href="#honeybee_energy.result.colorobj.ColorFace.matched_values" title="Permalink to this definition">¶</a></dt>
+<dd><p>Get an array of numbers that correspond to the matched_flat_faces.</p>
+<p>These values are derived from the data_collections but they will be
+averaged/totaled and normalized by the face/sub-face area depending on the
+other inputs to this object.</p>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="honeybee_energy.result.colorobj.ColorFace.max_point">
+<code class="descname">max_point</code><a class="headerlink" href="#honeybee_energy.result.colorobj.ColorFace.max_point" title="Permalink to this definition">¶</a></dt>
+<dd><p>Get a Point3D for the maximum of the box around the rooms.</p>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="honeybee_energy.result.colorobj.ColorFace.min_point">
+<code class="descname">min_point</code><a class="headerlink" href="#honeybee_energy.result.colorobj.ColorFace.min_point" title="Permalink to this definition">¶</a></dt>
+<dd><p>Get a Point3D for the minimum of the box around the rooms.</p>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="honeybee_energy.result.colorobj.ColorFace.normalize">
+<code class="descname">normalize</code><a class="headerlink" href="#honeybee_energy.result.colorobj.ColorFace.normalize" title="Permalink to this definition">¶</a></dt>
+<dd><p>Get or set a boolean for whether results are normalized by face/sub-face area.</p>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="honeybee_energy.result.colorobj.ColorFace.simulation_step">
+<code class="descname">simulation_step</code><a class="headerlink" href="#honeybee_energy.result.colorobj.ColorFace.simulation_step" title="Permalink to this definition">¶</a></dt>
+<dd><p>Get or set an integer to select a specific step of the data collections.</p>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="honeybee_energy.result.colorobj.ColorFace.title_text">
+<code class="descname">title_text</code><a class="headerlink" href="#honeybee_energy.result.colorobj.ColorFace.title_text" title="Permalink to this definition">¶</a></dt>
+<dd><p>Text string for the title of the color zones.</p>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="honeybee_energy.result.colorobj.ColorFace.unit">
+<code class="descname">unit</code><a class="headerlink" href="#honeybee_energy.result.colorobj.ColorFace.unit" title="Permalink to this definition">¶</a></dt>
+<dd><p>The unit of this object’s data collections.</p>
+</dd></dl>
+
+</dd></dl>
+
+<dl class="class">
+<dt id="honeybee_energy.result.colorobj.ColorRoom">
+<em class="property">class </em><code class="descclassname">honeybee_energy.result.colorobj.</code><code class="descname">ColorRoom</code><span class="sig-paren">(</span><em>data_collections</em>, <em>rooms</em>, <em>legend_parameters=None</em>, <em>simulation_step=None</em>, <em>normalize_by_floor=True</em>, <em>geo_unit='m'</em><span class="sig-paren">)</span><a class="reference internal" href="_modules/honeybee_energy/result/colorobj.html#ColorRoom"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#honeybee_energy.result.colorobj.ColorRoom" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal notranslate"><span class="pre">honeybee_energy.result.colorobj._ColorObject</span></code></p>
+<p>Object for visualization zone-level simulation results on Honeybee Room geometry.</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><ul class="first last simple">
+<li><strong>data_collections</strong> – An array of HourlyContinuousCollections of the same data type,
+which will be used to color Rooms with simulation results. Data collections
+can be of any class (eg. MonthlyCollection, DailyCollection) but they
+should all have headers with metadata dictionaries with ‘Zone’ or
+‘System’ keys. These keys will be used to match the data in the collections
+to the input rooms.</li>
+<li><strong>rooms</strong> – An array of honeybee Rooms, which will be matched to the data_collections.
+The length of these Rooms does not have to match the data_collections
+and this object will only create visualizations for rooms that are
+found to be matching.</li>
+<li><strong>legend_parameters</strong> – An optional LegendParameter object to change the display
+of the ColorRooms (Default: None).</li>
+<li><strong>simulation_step</strong> – An optional integer (greater than or equal to 0) to select
+a specific step of the data collections for which result values will be
+generated. If None, the geometry will be colored with the total of
+resutls in the data_collections if the data type is cumulative or with
+the average of results if the data type is not cumulative. Default: None.</li>
+<li><strong>normalize_by_floor</strong> – Boolean to note whether results should be normalized
+by the floor area of the Room if the data type of the data_colections
+supports it. If False, values will be generated using sum total of
+the data collection values. Note that this input has no effect if
+the data type of the data_collections is not normalizable since data
+collection values will always be averaged for this case. Default: True.</li>
+<li><strong>geo_unit</strong> – Optional text to note the units that the Room geometry is in.
+This will be used to ensure the legend units display correctly when
+data is floor-normalized. Examples include ‘m’, ‘mm’, ‘ft’.
+(Default: ‘m’ for meters).</li>
+</ul>
+</td>
+</tr>
+</tbody>
+</table>
+<dl class="docutils">
+<dt>Properties:</dt>
+<dd><ul class="first last simple">
+<li>data_collections</li>
+<li>rooms</li>
+<li>legend_parameters</li>
+<li>simulation_step</li>
+<li>normalize_by_floor</li>
+<li>geo_unit</li>
+<li>matched_rooms</li>
+<li>matched_values</li>
+<li>matched_floor_faces</li>
+<li>matched_floor_areas</li>
+<li>graphic_container</li>
+<li>title_text</li>
+<li>data_type_text</li>
+<li>data_type</li>
+<li>unit</li>
+<li>analysis_period</li>
+<li>min_point</li>
+<li>max_point</li>
+</ul>
+</dd>
+</dl>
+<dl class="method">
+<dt id="honeybee_energy.result.colorobj.ColorRoom.time_interval_text">
+<code class="descname">time_interval_text</code><span class="sig-paren">(</span><em>simulation_step</em><span class="sig-paren">)</span><a class="headerlink" href="#honeybee_energy.result.colorobj.ColorRoom.time_interval_text" title="Permalink to this definition">¶</a></dt>
+<dd><p>Get text for a specific time simulation_step of the data collections.</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>simulation_step</strong> – An integer for the step of simulation for which
+text should be generated.</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="honeybee_energy.result.colorobj.ColorRoom.analysis_period">
+<code class="descname">analysis_period</code><a class="headerlink" href="#honeybee_energy.result.colorobj.ColorRoom.analysis_period" title="Permalink to this definition">¶</a></dt>
+<dd><p>The analysis_period of this object’s data collections.</p>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="honeybee_energy.result.colorobj.ColorRoom.data_collections">
+<code class="descname">data_collections</code><a class="headerlink" href="#honeybee_energy.result.colorobj.ColorRoom.data_collections" title="Permalink to this definition">¶</a></dt>
+<dd><p>Get a tuple of data collections assigned to this object.</p>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="honeybee_energy.result.colorobj.ColorRoom.data_type">
+<code class="descname">data_type</code><a class="headerlink" href="#honeybee_energy.result.colorobj.ColorRoom.data_type" title="Permalink to this definition">¶</a></dt>
+<dd><p>The data type of this object’s data collections.</p>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="honeybee_energy.result.colorobj.ColorRoom.data_type_text">
+<code class="descname">data_type_text</code><a class="headerlink" href="#honeybee_energy.result.colorobj.ColorRoom.data_type_text" title="Permalink to this definition">¶</a></dt>
+<dd><p>Text for the data type.</p>
+<p>This will be the full name of the EnergyPlus ouput if the DataCollection
+header meatadata contains a ‘type’ key. Otherwise, this will be the name
+of the data_type object.</p>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="honeybee_energy.result.colorobj.ColorRoom.geo_unit">
+<code class="descname">geo_unit</code><a class="headerlink" href="#honeybee_energy.result.colorobj.ColorRoom.geo_unit" title="Permalink to this definition">¶</a></dt>
+<dd><p>Text to note the units that the object geometry is in.</p>
+<p>This will be used to ensure the legend units display correctly when
+data is floor-normalized. Examples include ‘m’, ‘mm’, ‘ft’.</p>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="honeybee_energy.result.colorobj.ColorRoom.graphic_container">
+<code class="descname">graphic_container</code><a class="headerlink" href="#honeybee_energy.result.colorobj.ColorRoom.graphic_container" title="Permalink to this definition">¶</a></dt>
+<dd><p>Get a ladybug GraphicContainer that relates to this object.</p>
+<p>The GraphicContainer possesses almost all things needed to visualize the
+ColorRoom object including the legend, value_colors, lower_title_location,
+upper_title_location, etc.</p>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="honeybee_energy.result.colorobj.ColorRoom.legend_parameters">
+<code class="descname">legend_parameters</code><a class="headerlink" href="#honeybee_energy.result.colorobj.ColorRoom.legend_parameters" title="Permalink to this definition">¶</a></dt>
+<dd><p>Get or set the legend parameters.</p>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="honeybee_energy.result.colorobj.ColorRoom.matched_floor_areas">
+<code class="descname">matched_floor_areas</code><a class="headerlink" href="#honeybee_energy.result.colorobj.ColorRoom.matched_floor_areas" title="Permalink to this definition">¶</a></dt>
+<dd><p>Get a list for all of the room floor faces.</p>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="honeybee_energy.result.colorobj.ColorRoom.matched_floor_faces">
+<code class="descname">matched_floor_faces</code><a class="headerlink" href="#honeybee_energy.result.colorobj.ColorRoom.matched_floor_faces" title="Permalink to this definition">¶</a></dt>
+<dd><p>Get a nested array with each sub-array having all floor Face3Ds of each room.</p>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="honeybee_energy.result.colorobj.ColorRoom.matched_rooms">
+<code class="descname">matched_rooms</code><a class="headerlink" href="#honeybee_energy.result.colorobj.ColorRoom.matched_rooms" title="Permalink to this definition">¶</a></dt>
+<dd><p>Get a tuple of honeybee Rooms that have been matched to the data.</p>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="honeybee_energy.result.colorobj.ColorRoom.matched_values">
+<code class="descname">matched_values</code><a class="headerlink" href="#honeybee_energy.result.colorobj.ColorRoom.matched_values" title="Permalink to this definition">¶</a></dt>
+<dd><p>Get an array of numbers that correspond to the matched_rooms.</p>
+<p>These values are derived from the data_collections but they will be
+averaged/totaled and normalized by Room floor area depending on the
+other inputs to this object.</p>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="honeybee_energy.result.colorobj.ColorRoom.max_point">
+<code class="descname">max_point</code><a class="headerlink" href="#honeybee_energy.result.colorobj.ColorRoom.max_point" title="Permalink to this definition">¶</a></dt>
+<dd><p>Get a Point3D for the maximum of the box around the rooms.</p>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="honeybee_energy.result.colorobj.ColorRoom.min_point">
+<code class="descname">min_point</code><a class="headerlink" href="#honeybee_energy.result.colorobj.ColorRoom.min_point" title="Permalink to this definition">¶</a></dt>
+<dd><p>Get a Point3D for the minimum of the box around the rooms.</p>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="honeybee_energy.result.colorobj.ColorRoom.normalize_by_floor">
+<code class="descname">normalize_by_floor</code><a class="headerlink" href="#honeybee_energy.result.colorobj.ColorRoom.normalize_by_floor" title="Permalink to this definition">¶</a></dt>
+<dd><p>Get or set a boolean for whether results should be normalized by floor area.</p>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="honeybee_energy.result.colorobj.ColorRoom.rooms">
+<code class="descname">rooms</code><a class="headerlink" href="#honeybee_energy.result.colorobj.ColorRoom.rooms" title="Permalink to this definition">¶</a></dt>
+<dd><p>Get a tuple of honeybee Rooms assigned to this object.</p>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="honeybee_energy.result.colorobj.ColorRoom.simulation_step">
+<code class="descname">simulation_step</code><a class="headerlink" href="#honeybee_energy.result.colorobj.ColorRoom.simulation_step" title="Permalink to this definition">¶</a></dt>
+<dd><p>Get or set an integer to select a specific step of the data collections.</p>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="honeybee_energy.result.colorobj.ColorRoom.title_text">
+<code class="descname">title_text</code><a class="headerlink" href="#honeybee_energy.result.colorobj.ColorRoom.title_text" title="Permalink to this definition">¶</a></dt>
+<dd><p>Text string for the title of the color zones.</p>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="honeybee_energy.result.colorobj.ColorRoom.unit">
+<code class="descname">unit</code><a class="headerlink" href="#honeybee_energy.result.colorobj.ColorRoom.unit" title="Permalink to this definition">¶</a></dt>
+<dd><p>The unit of this object’s data collections.</p>
+</dd></dl>
+
+</dd></dl>
+
+</div>
+
+
+    </div>
+      
+  </div>
+</div>
+<footer class="footer">
+  <div class="container">
+    <p class="pull-right">
+      <a href="#">Back to top</a>
+      
+    </p>
+    <p>
+        &copy; Copyright 2019, Ladybug Tools.<br/>
+      Created using <a href="http://sphinx-doc.org/">Sphinx</a> 1.8.5.<br/>
+    </p>
+  </div>
+</footer>
+  </body>
+</html>

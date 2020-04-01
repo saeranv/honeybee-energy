@@ -1,0 +1,17 @@
+honeybee\_energy.hvac package
+=============================
+
+Submodules
+----------
+
+.. toctree::
+
+   honeybee_energy.hvac.idealair
+
+Module contents
+---------------
+
+.. automodule:: honeybee_energy.hvac
+    :members:
+    :undoc-members:
+    :show-inheritance:
